@@ -1,0 +1,76 @@
+
+ext.set('projectRoot', project.projectDir.toString())
+
+buildscript {
+    ext {
+		scalaTestPlugin = '0.19'
+    }
+
+    repositories {
+        jcenter()
+		mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+        
+    }
+
+    dependencies {
+        classpath("gradle.plugin.com.github.maiflai:gradle-scalatest:$scalaTestPlugin")
+    }
+}
+
+apply from: file("./gradle/dependency-versions-scala-" + "$scalaVersion" + ".gradle")
+apply from: file("./gradle/dependency-versions.gradle")
+
+allprojects {
+    apply plugin: 'scala'
+    apply plugin: 'com.github.maiflai.scalatest'
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+//        testCompile("org.scalatest:scalatest_$scalaVersion:$scalatest")
+        // scalatest plugin needs this to work with scalatest
+        testRuntime("org.pegdown:pegdown:$pegdown")
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    }
+
+    tasks.withType(ScalaCompile) {
+        configure(scalaCompileOptions.forkOptions) {
+            jvmArgs = ['-Xss4m']
+        }
+        configure(scalaCompileOptions) {
+            additionalParameters = ['-target:jvm-1.8']
+        }
+    }
+}
+
+project("crypto-analytics") {
+    apply plugin: 'scala'
+    apply plugin: 'com.github.maiflai.scalatest'
+
+
+    def projectName = "crypto-analytics"
+
+    jar {
+        baseName = "${projectName}_$scalaVersion"
+        version = "$version"
+    }
+
+    test {
+        maxParallelForks = 1
+    }
+
+    dependencies {
+        compile("org.scala-lang:scala-library:$scalaLibVersion")
+        compile("org.scala-lang:scala-compiler:$scalaLibVersion")
+        compile("org.http4s:http4s-dsl_$scalaVersion:$http4s")
+        compile("org.http4s:http4s-blaze-client_$scalaVersion:$http4s")
+        compile("org.http4s:http4s-blaze-server_$scalaVersion:$http4s")
+
+    }
+	
+}

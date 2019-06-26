@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Gradle 1" modules="com.ferran.projects.crypto-analytics,com.ferran.projects.crypto-analytics.main,com.ferran.projects.crypto-analytics.test,com.ferran.projects.crypto.analytics.crypto-analytics.main,com.ferran.projects.crypto.analytics.crypto-analytics.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+  </component>
+</project>
