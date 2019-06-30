@@ -18,7 +18,6 @@ buildscript {
     }
 }
 
-apply from: file("./gradle/dependency-versions-scala-" + "$scalaVersion" + ".gradle")
 apply from: file("./gradle/dependency-versions.gradle")
 
 allprojects {

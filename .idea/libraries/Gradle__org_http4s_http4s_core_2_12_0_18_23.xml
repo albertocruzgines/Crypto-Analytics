@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.http4s:http4s-core_2.12:0.18.23">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-core_2.12/0.18.23/6c5f5bcd6a688fd764dbcc16da0aa4087edfb6e5/http4s-core_2.12-0.18.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-core_2.12/0.18.23/753798a5c06d6a15bf983fee7bded78c577a2961/http4s-core_2.12-0.18.23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -7,4 +7,7 @@ ext {
     scalatest = "3.0.2"
  	spark = "2.4.0"
 	http4s = "0.18.23"
+	scalaVersion = "2.12.5"
+	scalaLibVersion = "2.12.5"
+
 }
