@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ferran.projects.codingChallenge.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ferran.projects.codingChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ferran.projects.codingChallenge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ferran.projects.codingChallenge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.ferran.projects.codingChallenge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.ferran.projects.codingChallenge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.main.iml" filepath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.test.iml" filepath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.test.iml" />
+    </modules>
+  </component>
+</project>

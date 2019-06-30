@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.ferran.projects.codingChallenge.main" target="1.8" />
+      <module name="com.ferran.projects.codingChallenge.test" target="1.8" />
+      <module name="com.ferran.projects.crypto-analytics.main" target="1.8" />
+      <module name="com.ferran.projects.crypto-analytics.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

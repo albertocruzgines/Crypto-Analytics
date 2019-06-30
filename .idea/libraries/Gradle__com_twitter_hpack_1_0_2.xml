@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twitter:hpack:1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/hpack/1.0.2/67ae8c061a3446e64015712a3aa39d0218340046/hpack-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/hpack/1.0.2/ac70bd5153459920cacb6b8ef8e548df24db97f9/hpack-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

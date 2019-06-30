@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: co.fs2:fs2-scodec_2.11:0.10.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-scodec_2.11/0.10.6/10aa3f23371cd04fead261dcedcf0c1ef35645bf/fs2-scodec_2.11-0.10.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-scodec_2.11/0.10.6/de4d4a88ce5114cde03ec000ba55cb07112eba5a/fs2-scodec_2.11-0.10.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
