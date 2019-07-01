@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8f84b2-86ae-47f0-8145-2f4bdca13f3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_chuusai_shapeless_2_12_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_core_2_12_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_generic_2_12_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_jawn_2_12_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_literal_2_12_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_numbers_2_12_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_circe_2_12_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_jawn_2_12_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_jawn_fs2_2_12_0_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_spire_math_jawn_parser_2_12_0_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_macro_compat_2_12_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$AuthToken$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$AuthToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/dependency-versions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/dependency-versions.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -76,32 +49,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#46#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
-              <folding>
-                <element signature="e#54#90#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="690">
+              <caret line="114" column="55" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -186,6 +153,8 @@
       <find>http4s</find>
       <find>scala</find>
       <find>scalaLibVersion</find>
+      <find>_int</find>
+      <find>&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -202,9 +171,9 @@
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/gradle/dependency-versions.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" />
+        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" />
       </list>
     </option>
   </component>
@@ -232,6 +201,11 @@
             <path>
               <item name="codingChallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="codingChallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="crypto-analytics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="codingChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingChallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -241,7 +215,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562013481830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562022611734" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -328,8 +302,8 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" visible="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Build" sideWeight="0.49928468" weight="0.28674698" />
       <window_info anchor="bottom" id="SBT Console" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -339,7 +313,7 @@
       <window_info anchor="bottom" id="Messages" sideWeight="0.49642345" weight="0.213253" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,23 +363,6 @@
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/dependency-versions.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-core_2.12/0.18.23/753798a5c06d6a15bf983fee7bded78c577a2961/http4s-core_2.12-0.18.23-sources.jar!/org/http4s/Credentials.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -434,30 +391,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="343">
+          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala">
+    <entry file="file://$PROJECT_DIR$/gradle/dependency-versions.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
-            <element signature="e#46#119#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
-          <folding>
-            <element signature="e#54#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="114" column="55" selection-start-line="114" selection-start-column="55" selection-end-line="114" selection-end-column="55" />
         </state>
       </provider>
     </entry>

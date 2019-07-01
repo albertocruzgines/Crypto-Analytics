@@ -3,7 +3,7 @@ package com.ferran.projects.crypto.analytics.clients
 import java.util.concurrent.TimeUnit
 
 import org.http4s.Uri
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel._
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Authorization._
 import org.http4s.BasicCredentials
 import cats.effect._
 import org.http4s._
