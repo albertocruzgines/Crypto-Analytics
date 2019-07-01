@@ -2,7 +2,7 @@ package com.ferran.projects.crypto.analytics.model
 
 object CryptoAnalyticModel {
 
-  case class AuthResponse(createdAt: String,
+  case class AccessToken(createdAt: String,
                           updatedAt: String,
                           id: String,
                           clientId: String,
@@ -10,6 +10,8 @@ object CryptoAnalyticModel {
                           token: String,
                           userId: Option[String],
                           deletedAt: Option[String])
+
+   case class AuthResponse(access_token: AccessToken, token_type: String)
 
 
 
