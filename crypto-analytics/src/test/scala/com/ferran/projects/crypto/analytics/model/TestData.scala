@@ -9,112 +9,82 @@ object TestData {
       0,
       "",
       "",
+      None,
       "",
-      "",
-      "",
+      None,
       "" )
 
-  val pool = Pool("", "")
+  val pool = Pool(None, None)
 
-  val addressA = AddressNum("AAAAA")
-  val addressE = AddressNum("EEEEE")
-  val addressC = AddressNum("CCCCC")
 
   val sign = Sign("", "")
 
-  val input = InOrOutDetails( List(addressA),
-    "",
+  val input = InOrOutDetails( Some(List("AAAA")),
+    None,
     0,
-    "",
-    0,
-    sign,
-    sign,
-    0,
-    "",
-    List.empty,
-    0,
-    ""
+    None,
+    None,
+    None,
+    None,
+    None,
+    None,
+    None,
+    None,
+    None
   )
 
-  val output = InOrOutDetails(List(addressE),
-    "",
+  val output = InOrOutDetails( Some(List("EEEEE")),
+    None,
     0,
-    "",
-    0,
-    sign,
-    sign,
-    0,
-    "",
-    List.empty,
-    0,
-    ""
+    None,
+    None,
+    None,
+    None,
+    None,
+    None,
+    None,
+    None,
+    None
   )
 
-
-  val tx1 = Transaction("",
-    "",
-    0,
-    0,
-    "",
-    0,
-    0,
-    0,
-    "",
-    false,
-    0,
-    0,
-    "",
-    0,
-    "",
-    0,
-    "",
-    0,
-    "",
-    false,
-    0,
-    List.empty,
-    0,
-    List(output),
-    0,
-    0
-  )
+  val tx1 = Transaction(outputs = Some(List(output)))
 
   val block = BlockDetails( 0,
     0,
     "",
     "",
-    "",
-    "",
-    "",
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    None,
     "",
     "",
     0,
     0,
+    0,
+    0,
+    0,
+    0,
     "",
+    "",
+    0,
     0,
     "",
     0,
     "",
     0,
     "",
-    "",
     0,
-    pool,
     "",
     "",
     0,
-    paging,
-    List(tx1)
+    None,
+    "",
+    None,
+    0,
+    None,
+    None
   )
 
 
-  val recentBlocks = RecentBlocksResponse(true, paging, List(block))
+  val recentBlocks = RecentBlocksResponse(true, paging, Some(List(block)))
 
   val detailedBlock = DetailedBlockResponse(true, block)
 

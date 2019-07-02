@@ -25,7 +25,7 @@ class CryptoAnalyticalModelTest extends FlatSpec with MustMatchers {
   "Encoding and decoding Transaction case class" should "return the same value" in {
 
 
-    val txs = jsonEncodedDetailedBlock.hcursor.downField("block").downField("transactions").as[List[Transaction]]
+    val txs = jsonEncodedDetailedBlock.hcursor.downField("block").downField("transactions").as[Option[List[Transaction]]]
 
     val txsDecoded = txs match {
       case Right(tx) => tx

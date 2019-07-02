@@ -8,9 +8,9 @@ object CryptoAnalyiticUtils {
     //TODO write a test for this method
     def filterInterestingTransactions(interestingPattern: String): Seq[Transaction] = {
       transactions.filter(transaction =>
-        transaction.outputs.exists(outputDetails =>
-          outputDetails.addresses.exists(addressNum =>
-            addressNum.address contains interestingPattern)))
+        transaction.outputs.get.exists(outputDetails =>
+          outputDetails.addresses.get.exists(addressNum =>
+            addressNum contains interestingPattern)))
     }
   }
 }

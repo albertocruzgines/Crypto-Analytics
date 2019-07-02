@@ -11,7 +11,7 @@ import io.circe.syntax._
 package object utils {
 
   implicit final val decoder52 = deriveDecoder[Sign]
-  implicit final val decoder51 = deriveDecoder[AddressNum]
+//  implicit final val decoder51 = deriveDecoder[Address]
 
   implicit final val decoder42 = deriveDecoder[InOrOutDetails]
 
@@ -29,7 +29,7 @@ package object utils {
 
 
   implicit final val encoder52 = deriveEncoder[Sign]
-  implicit final val encoder51 = deriveEncoder[AddressNum]
+//  implicit final val encoder51 = deriveEncoder[Address]
 
   implicit final val encoder42 = deriveEncoder[InOrOutDetails]
 
