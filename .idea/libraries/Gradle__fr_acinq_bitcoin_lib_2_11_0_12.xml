@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: fr.acinq:bitcoin-lib_2.11:0.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.acinq/bitcoin-lib_2.11/0.12/646bae062792128dca7449f15485f822dfceba9e/bitcoin-lib_2.11-0.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.acinq/bitcoin-lib_2.11/0.12/702f9f4b39aa783addfa435752d54eb1446a5fea/bitcoin-lib_2.11-0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

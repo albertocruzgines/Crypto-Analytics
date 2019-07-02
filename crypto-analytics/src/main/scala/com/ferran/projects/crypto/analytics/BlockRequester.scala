@@ -3,8 +3,9 @@ package com.ferran.projects.crypto.analytics
 import com.ferran.projects.crypto.analytics.clients.RestScalaClient._
 import cats.effect.IO
 import com.ferran.projects.crypto.analytics.clients.RestScalaClient
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Authorization
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.{Authorization, SmartBit}
 import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit.RecentBlocksRequest
+import com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils._
 import org.http4s.client.Client
 import org.http4s.client.blaze.Http1Client
 import org.http4s.{BasicCredentials, Uri}
@@ -28,14 +29,18 @@ object BlockRequester extends App {
     recentBlocks <- RestScalaClient.getSmartBitRecentBlocks(uri, client = httpClient)
   } yield recentBlocks
 
-  val blockInfo = for {
-    a <- recentBlocks.map(recentBlock =>
-      recentBlock.blocks.map(block =>
-      block.height))
+  val urlGetBlockDetails = "https://api.smartbit.com.au/v1/blockchain/block/"
 
-
-
-  }yield
+  val interestingTransactions = recentBlocks.map(_.blocks.map(block =>
+     for {
+      uri <- IO.fromEither(Uri.fromString(urlGetBlockDetails))
+      uriWithBlockHeigh = uri.withPath(s"${block.height}")
+      blockDetails: SmartBit.SmartBitRequest <- RestScalaClient.getSmartBitBlockDetails(uriWithBlockHeigh, client = httpClient)
+      //TODO add a note saying that each block should have at least one transaction. If it´s not the case, we want the code to fail.
+      filteredTransactions = blockDetails.block.transactions.get.filterInterestingTransactions("E")
+    } yield filteredTransactions
+  )
+  )
 
   println(recentBlocks.unsafeRunSync())
 

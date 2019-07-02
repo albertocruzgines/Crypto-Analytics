@@ -52,7 +52,7 @@ object RestScalaClient {
     val recentBlocks = client.expect[RecentBlocksRequest](getRecentBlocksRequest)(jsonOf[IO, RecentBlocksRequest])
     retryWithBackoff(recentBlocks, defaultDuration, retries)
   }
-
+//TODO change both request methods to one generic
   def getSmartBitBlockDetails(uri: Uri,
                       retries: Int = 3,
                       client: Client[IO]): IO[DetailedBlockRequest] = {

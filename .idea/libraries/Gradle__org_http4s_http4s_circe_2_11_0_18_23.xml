@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.http4s:http4s-circe_2.11:0.18.23">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-circe_2.11/0.18.23/402b5c827dd1876e1f80153fa718e5ec042c94f/http4s-circe_2.11-0.18.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-circe_2.11/0.18.23/dab24b3876ba2e27f4e29a5294931d5e5df8646d/http4s-circe_2.11-0.18.23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

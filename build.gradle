@@ -10,7 +10,8 @@ buildscript {
         jcenter()
 		mavenCentral()
         maven { url "https://plugins.gradle.org/m2/" }
-        
+
+
     }
 
     dependencies {
@@ -20,13 +21,15 @@ buildscript {
 
 apply from: file("./gradle/dependency-versions.gradle")
 
-subprojects {
+allprojects {
     apply plugin: 'scala'
     apply plugin: 'com.github.maiflai.scalatest'
 
     repositories {
         mavenCentral()
         jcenter()
+        
+        
     }
 
     dependencies {
@@ -72,7 +75,7 @@ project("crypto-analytics") {
         compile("org.http4s:http4s-circe_$scalaVersion:$http4s")
         compile("io.circe:circe-generic_$scalaVersion:$circe")
         compile("io.circe:circe-literal_$scalaVersion:$circe")
-        
+        compile("fr.acinq:bitcoin-lib_$scalaVersion:$bitcoin")
     }
 	
 }

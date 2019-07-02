@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.http4s:jawn-fs2_2.11:0.12.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/jawn-fs2_2.11/0.12.2/fb458f43b4e24f954b6c22febd9a33062b8b33fa/jawn-fs2_2.11-0.12.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/jawn-fs2_2.11/0.12.2/22dbb6f8a3817aff0ef1903eebaf87ae5e679f6e/jawn-fs2_2.11-0.12.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

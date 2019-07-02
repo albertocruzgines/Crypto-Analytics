@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.typelevel:cats-macros_2.11:1.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-macros_2.11/1.6.0/eb04f8e85d649d7ec0af83de21cc2e402d0f342d/cats-macros_2.11-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-macros_2.11/1.6.0/6fe73a34de32b1e4214c8ead93211c4abe05957/cats-macros_2.11-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

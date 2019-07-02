@@ -7,8 +7,9 @@ ext {
     scalatest = "3.0.2"
  	spark = "2.4.0"
 	http4s = "0.18.23"
-	scalaVersion = "2.12.5"
-	scalaLibVersion = "2.12.5"
+	scalaVersion = "2.11.8"
+	scalaLibVersion = "2.11.8"
 	circe = "0.9.3"
+	bitcoin = "0.12"
 
 }
