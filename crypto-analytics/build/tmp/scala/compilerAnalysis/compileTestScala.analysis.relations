@@ -1,0 +1,29 @@
+products:
+   src/test/scala/com/ferran/projects/crypto/analytics/BulkRequesterTest.scala -> build/classes/scala/test/com/ferran/projects/crypto/analytics/BulkRequesterTest.class
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> build/classes/scala/test/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest$$anonfun$1.class
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> build/classes/scala/test/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest$$anonfun$2.class
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> build/classes/scala/test/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.class
+   src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala -> build/classes/scala/test/com/ferran/projects/crypto/analytics/model/TestData$.class
+   src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala -> build/classes/scala/test/com/ferran/projects/crypto/analytics/model/TestData.class
+binary dependencies:
+   src/test/scala/com/ferran/projects/crypto/analytics/BulkRequesterTest.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-core_2.11/0.9.3/38db926d606039fd01c052daee7a3c8a343705fa/circe-core_2.11-0.9.3.jar
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.11/3.0.5/84f9454a7ceaa2b05a5ef36a15b9a332c5a1c697/scalactic_2.11-3.0.5.jar
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.5/986921d9a4dafec38c0ba0a858f1e2a916cd2358/scalatest_2.11-3.0.5.jar
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$.class
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$.class
+   src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar
+   src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$.class
+source dependencies:
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala
+external dependencies:
+class names:
+   src/test/scala/com/ferran/projects/crypto/analytics/BulkRequesterTest.scala -> com.ferran.projects.crypto.analytics.BulkRequesterTest
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest$$anonfun$1
+   src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest$$anonfun$2
+   src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala -> com.ferran.projects.crypto.analytics.model.TestData
+   src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala -> com.ferran.projects.crypto.analytics.model.TestData$

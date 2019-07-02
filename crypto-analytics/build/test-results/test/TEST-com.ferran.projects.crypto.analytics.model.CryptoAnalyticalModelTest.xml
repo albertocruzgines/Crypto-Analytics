@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite 
+errors="0" failures="0" hostname="Ferrans-MacBook-Pro.local" name="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" tests="2" time="0.059" timestamp="2019-07-02T20:27:11">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment">
+    </property>
+    <property 
+    name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib">
+</property>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property 
+    name="java.vm.specification.name" value="Java Virtual Machine Specification">
+</property>
+    <property 
+    name="user.dir" value="/Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics">
+</property>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment">
+    </property>
+    <property 
+    name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed">
+</property>
+    <property name="os.arch" value="x86_64"/>
+    <property 
+    name="java.io.tmpdir" value="/var/folders/xd/hbgdb14x6kd_07c5skcyjznc0000gn/T/">
+</property>
+    <property name="line.separator" value=" "/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property 
+    name="java.library.path" value="/Users/ferran/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.">
+</property>
+    <property 
+    name="java.specification.name" value="Java Platform API Specification">
+</property>
+    <property name="java.class.version" value="52.0"/>
+    <property 
+    name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
+</property>
+    <property name="os.version" value="10.14"/>
+    <property 
+    name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property name="user.home" value="/Users/ferran"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="ferran"/>
+    <property 
+    name="java.class.path" value="/Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/classes/java/test:/Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/classes/scala/test:/Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/resources/test:/Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/classes/java/main:/Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/classes/scala/main:/Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/resources/main:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.8/fe1285c9f7b58954c5ef6d80b59063569c065e9a/scala-compiler-2.11.8.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-dsl_2.11/0.18.23/ae429d85755744b8141419ebab44d2e7dea313bd/http4s-dsl_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-blaze-client_2.11/0.18.23/8383712b14d4f279059de1cfe5289240c71ea03a/http4s-blaze-client_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-blaze-server_2.11/0.18.23/bfbda188cb6bde2aa934afc323b819ab73041c10/http4s-blaze-server_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-circe_2.11/0.18.23/402b5c827dd1876e1f80153fa718e5ec042c94f/http4s-circe_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-generic_2.11/0.9.3/c7c8912433df73ac3ccab53d7d4ef2492464a0af/circe-generic_2.11-0.9.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-literal_2.11/0.9.3/62784e8af80fcf3d5091c74c5401e6ea9d743111/circe-literal_2.11-0.9.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-parser_2.11/0.9.3/55e29b4c8f9f380acc2d4fd572fd05e71de121af/circe-parser_2.11-0.9.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.5/986921d9a4dafec38c0ba0a858f1e2a916cd2358/scalatest_2.11-3.0.5.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/7369d653bcfa95d321994660477a4d7e81d7f490/scala-parser-combinators_2.11-1.0.4.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-blaze-core_2.11/0.18.23/883e3d0639dcbd97d8d03f5240671df57f84091b/http4s-blaze-core_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-client_2.11/0.18.23/4dfe180c8ebbc8eadd785467f3e799f57a70a036/http4s-client_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-server_2.11/0.18.23/79fbdefe9d1d628a6db593d493d7f7ba87aee04b/http4s-server_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-jawn_2.11/0.18.23/b6fadcd96f9087b2ea591d90f85ec7377e7361d2/http4s-jawn_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-core_2.11/0.18.23/1b3333ce3c162cb64b2e84d9744813ca3481330d/http4s-core_2.11-0.18.23.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-jawn_2.11/0.9.3/5d4329cb6ff6f9bf84d94e005331f46a05a90163/circe-jawn_2.11-0.9.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-core_2.11/0.9.3/38db926d606039fd01c052daee7a3c8a343705fa/circe-core_2.11-0.9.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.11/2.3.3/ea34d4b6128b9090386945dcb952816bd9e87ce2/shapeless_2.11-2.3.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.typelevel/macro-compat_2.11/1.1.1/cb87cb74fd5fb118fede3f98075c2044616b35d/macro-compat_2.11-1.1.1.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.11/3.0.5/84f9454a7ceaa2b05a5ef36a15b9a332c5a1c697/scalactic_2.11-3.0.5.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-io_2.11/0.10.6/9df63ce12eb25812fabf0bbe54e1b08290e1b437/fs2-io_2.11-0.10.6.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-scodec_2.11/0.10.6/10aa3f23371cd04fead261dcedcf0c1ef35645bf/fs2-scodec_2.11-0.10.6.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/jawn-fs2_2.11/0.12.2/fb458f43b4e24f954b6c22febd9a33062b8b33fa/jawn-fs2_2.11-0.12.2.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/co.fs2/fs2-core_2.11/0.10.6/d0eacc97f97bf560bc444acceb20764fc817ba33/fs2-core_2.11-0.10.6.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.11/0.10.1/c3ab4e3d6e18ce641d5a5e17d1e38ab0b328b660/cats-effect_2.11-0.10.1.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-core_2.11/1.6.0/383d78162eafac02b5ac298f56d5a4cd89950aef/cats-core_2.11-1.6.0.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-macros_2.11/1.6.0/eb04f8e85d649d7ec0af83de21cc2e402d0f342d/cats-macros_2.11-1.6.0.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.typelevel/machinist_2.11/0.6.6/13dfcae400def30a1476b219a46343fc8c18d662/machinist_2.11-0.6.6.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.12/2bb23c13c527566d9828107ca4108be2a2c06f01/scala-reflect-2.11.12.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/blaze-http_2.11/0.12.13/448473b80e93bc6bcff97a7ad1ee77decbd478ec/blaze-http_2.11-0.12.13.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.6/4ebd108453e6455351c0ec50d32509ae1154fdb1/scala-xml_2.11-1.0.6.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-websocket_2.11/0.2.1/b7a3cfa69c78d536254a1b9b9129677d1060c473/http4s-websocket_2.11-0.2.1.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/blaze-core_2.11/0.12.13/1442d8d790266d86e685f8966d3309dffef79f09/blaze-core_2.11-0.12.13.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.log4s/log4s_2.11/1.7.0/9d0c92fa9c11ed4f146399d86b434643ac833868/log4s_2.11-1.7.0.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/parboiled_2.11/1.0.1/f28cb4d02d43c5cc4183d9d9884fb2338dd2c403/parboiled_2.11-1.0.1.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.scodec/scodec-bits_2.11/1.1.9/b02c221ca502467dcd7240c2be7bcd626988362a/scodec-bits_2.11-1.1.9.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.spire-math/jawn-parser_2.11/0.11.1/ad6bd066b122f514a040e6a7e24f8448e309e41d/jawn-parser_2.11-0.11.1.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-numbers_2.11/0.9.3/bca36973eb5b69d109e8c3830442248f3ee26dc3/circe-numbers_2.11-0.9.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-kernel_2.11/1.6.0/8d57d8267726cff45844ed0229e82b8a5723b2c2/cats-kernel_2.11-1.6.0.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.6.2/a91369f655eb1639c6aece5c5eb5108db18306/log4j-core-2.6.2.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.pegdown/pegdown/1.6.0/231ae49d913467deb2027d0b8a0b68b231deef4f/pegdown-1.6.0.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.6.2/bd1b74a5d170686362091c7cf596bbc3adf5c09b/log4j-api-2.6.2.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-java/1.1.7/2298c64ce8ee8e2fb37e97e16d7be52f0c7cf61f/parboiled-java-1.1.7.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/com.twitter/hpack/1.0.2/67ae8c061a3446e64015712a3aa39d0218340046/hpack-1.0.2.jar:/Users/ferran/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.alpn/alpn-api/1.1.3.v20160715/a1bf3a937f91b4c953acd13e8c9552347adc2198/alpn-api-1.1.3.v20160715.jar">
+</property>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property 
+    name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre">
+</property>
+    <property 
+    name="sun.java.command" value="org.scalatest.tools.Runner -oDS -PS1 -R /Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/classes/java/test -R /Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/classes/scala/test -u /Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/test-results/test -h /Users/ferran/Documents/Ferran/Work/Interviews/Elliptic/codingChallenge/crypto-analytics/build/reports/tests/test">
+</property>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property 
+    name="java.ext.dirs" value="/Users/ferran/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java">
+</property>
+    <property 
+    name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes">
+</property>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property 
+    name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/">
+</property>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property 
+    name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property 
+    name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase 
+  name="Encoding and decoding DetailedBlock case class should return the same value" classname="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" time="0.043">
+</testcase>
+  <testcase 
+  name="Encoding and decoding Transaction case class should return the same value" classname="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" time="0.001">
+</testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

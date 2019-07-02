@@ -1,6 +1,8 @@
 products:
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$apply$1.class
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$2$$anonfun$apply$2.class
+   src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$2.class
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$.class
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$delayedInit$body.class
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester.class
@@ -8,21 +10,21 @@ products:
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$3.class
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$retryWithBackoff$1.class
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$2.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$4.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$5$$anonfun$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$5.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anonfun$inst$macro$1$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anonfun$inst$macro$9$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$anon$macro$18$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$anon$macro$7$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$49$1$$anon$3.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$49$1$$anon$6.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$49$1$$anonfun$inst$macro$31$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$49$1$anon$macro$47$1.class
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$49$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$$anon$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$$anon$2.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$$anon$4.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$$anon$5$$anonfun$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$$anon$5.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$$anonfun$inst$macro$461$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$$anonfun$inst$macro$469$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$anon$macro$467$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1$anon$macro$478$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$489$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$509$1$$anon$3.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$509$1$$anon$6.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$509$1$$anonfun$inst$macro$491$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$509$1$anon$macro$507$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$509$1.class
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$.class
@@ -39,20 +41,16 @@ products:
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$BlockDetails.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$DetailedBlockResponse$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$DetailedBlockResponse.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$InputDetails$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$InputDetails.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$OutputDetails$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$OutputDetails.class
+   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$InOrOutDetails$.class
+   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$InOrOutDetails.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Paging$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Paging.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Pool$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Pool.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$PubKey$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$PubKey.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$RecentBlocksResponse$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$RecentBlocksResponse.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$ScriptSig$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$ScriptSig.class
+   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Sign$.class
+   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Sign.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$SmartBitResponse.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Transaction$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Transaction.class
@@ -63,8 +61,120 @@ products:
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1.class
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions.class
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$10.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$11.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$12.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$13.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$14.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$15.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$16.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$17.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$18.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$2.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$3.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$4.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$5.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$6.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$7.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$8.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$9.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$115$1$$anon$14.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$115$1$$anon$32.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$115$1$$anonfun$inst$macro$59$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$115$1$anon$macro$113$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$115$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$137$1$$anon$15.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$137$1$$anon$33.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$137$1$$anonfun$inst$macro$117$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$137$1$anon$macro$135$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$137$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$17$1$$anon$11.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$17$1$$anon$29.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$17$1$$anonfun$inst$macro$11$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$17$1$anon$macro$15$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$17$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$207$1$$anon$16.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$207$1$$anon$34.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$207$1$$anonfun$inst$macro$139$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$207$1$anon$macro$205$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$207$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$217$1$$anon$17.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$217$1$$anon$35.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$217$1$$anonfun$inst$macro$209$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$217$1$anon$macro$215$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$217$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$229$1$$anon$18.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$229$1$$anon$36.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$229$1$$anonfun$inst$macro$219$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$229$1$anon$macro$227$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$229$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$239$1$$anon$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$239$1$$anon$19.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$239$1$$anonfun$inst$macro$231$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$239$1$anon$macro$237$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$239$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$247$1$$anon$2.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$247$1$$anon$20.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$247$1$$anonfun$inst$macro$241$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$247$1$anon$macro$245$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$247$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$277$1$$anon$21.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$277$1$$anon$3.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$277$1$$anonfun$inst$macro$249$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$277$1$anon$macro$275$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$277$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$287$1$$anon$22.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$287$1$$anon$4.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$287$1$$anonfun$inst$macro$279$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$287$1$anon$macro$285$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$287$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1$$anon$23.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1$$anon$5.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1$$anonfun$inst$macro$289$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1$anon$macro$343$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$367$1$$anon$24.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$367$1$$anon$6.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$367$1$$anonfun$inst$macro$347$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$367$1$anon$macro$365$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$367$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$437$1$$anon$25.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$437$1$$anon$7.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$437$1$$anonfun$inst$macro$369$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$437$1$anon$macro$435$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$437$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$447$1$$anon$26.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$447$1$$anon$8.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$447$1$$anonfun$inst$macro$439$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$447$1$anon$macro$445$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$447$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$459$1$$anon$27.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$459$1$$anon$9.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$459$1$$anonfun$inst$macro$449$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$459$1$anon$macro$457$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$459$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$47$1$$anon$12.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$47$1$$anon$30.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$47$1$$anonfun$inst$macro$19$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$47$1$anon$macro$45$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$47$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$57$1$$anon$13.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$57$1$$anon$31.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$57$1$$anonfun$inst$macro$49$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$57$1$anon$macro$55$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$57$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1$$anon$10.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1$$anon$28.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1$$anonfun$inst$macro$1$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1$anon$macro$7$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1.class
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package.class
 binary dependencies:
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-core_2.11/0.9.3/38db926d606039fd01c052daee7a3c8a343705fa/circe-core_2.11-0.9.3.jar
+   src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-generic_2.11/0.9.3/c7c8912433df73ac3ccab53d7d4ef2492464a0af/circe-generic_2.11-0.9.3.jar
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-blaze-client_2.11/0.18.23/8383712b14d4f279059de1cfe5289240c71ea03a/http4s-blaze-client_2.11-0.18.23.jar
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-client_2.11/0.18.23/4dfe180c8ebbc8eadd785467f3e799f57a70a036/http4s-client_2.11-0.18.23.jar
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-core_2.11/0.18.23/1b3333ce3c162cb64b2e84d9744813ca3481330d/http4s-core_2.11-0.18.23.jar
@@ -85,39 +195,49 @@ binary dependencies:
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.11/2.3.3/ea34d4b6128b9090386945dcb952816bd9e87ce2/shapeless_2.11-2.3.3.jar
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-core_2.11/0.9.3/38db926d606039fd01c052daee7a3c8a343705fa/circe-core_2.11-0.9.3.jar
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/io.circe/circe-generic_2.11/0.9.3/c7c8912433df73ac3ccab53d7d4ef2492464a0af/circe-generic_2.11-0.9.3.jar
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> /Users/ferran/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-core_2.11/1.6.0/383d78162eafac02b5ac298f56d5a4cd89950aef/cats-core_2.11-1.6.0.jar
 source dependencies:
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala
+   src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala
 external dependencies:
 class names:
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> com.ferran.projects.crypto.analytics.BlockRequester
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> com.ferran.projects.crypto.analytics.BlockRequester$
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> com.ferran.projects.crypto.analytics.BlockRequester$$anonfun$1
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> com.ferran.projects.crypto.analytics.BlockRequester$$anonfun$1$$anonfun$apply$1
+   src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> com.ferran.projects.crypto.analytics.BlockRequester$$anonfun$2
+   src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> com.ferran.projects.crypto.analytics.BlockRequester$$anonfun$2$$anonfun$apply$2
    src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala -> com.ferran.projects.crypto.analytics.BlockRequester$delayedInit$body
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$$anonfun$2
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$$anonfun$3
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$$anonfun$retryWithBackoff$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$$anon$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$$anon$2
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$$anon$4
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$$anon$5
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$$anon$5$$anonfun$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$$anonfun$inst$macro$1$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$$anonfun$inst$macro$9$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$anon$macro$18$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$29$1$anon$macro$7$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$49$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$49$1$$anon$3
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$49$1$$anon$6
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$49$1$$anonfun$inst$macro$31$1
-   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$49$1$anon$macro$47$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$$anon$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$$anon$2
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$$anon$4
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$$anon$5
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$$anon$5$$anonfun$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$$anonfun$inst$macro$461$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$$anonfun$inst$macro$469$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$anon$macro$467$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$489$1$anon$macro$478$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$509$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$509$1$$anon$3
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$509$1$$anon$6
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$509$1$$anonfun$inst$macro$491$1
+   src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$509$1$anon$macro$507$1
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Shapeshift$
@@ -134,20 +254,16 @@ class names:
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$BlockDetails$
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$DetailedBlockResponse
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$DetailedBlockResponse$
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$InputDetails
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$InputDetails$
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$OutputDetails
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$OutputDetails$
+   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$InOrOutDetails
+   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$InOrOutDetails$
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Paging
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Paging$
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Pool
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Pool$
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$PubKey
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$PubKey$
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$RecentBlocksResponse
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$RecentBlocksResponse$
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$ScriptSig
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$ScriptSig$
+   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Sign
+   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Sign$
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$SmartBitResponse
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Transaction
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Transaction$
@@ -157,3 +273,113 @@ class names:
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1$$anonfun$apply$1
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1$$anonfun$apply$1$$anonfun$apply$2
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$10
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$11
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$12
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$13
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$14
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$15
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$16
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$17
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$18
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$2
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$3
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$4
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$5
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$6
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$7
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$8
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$$anonfun$9
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$115$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$115$1$$anon$14
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$115$1$$anon$32
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$115$1$$anonfun$inst$macro$59$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$115$1$anon$macro$113$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$137$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$137$1$$anon$15
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$137$1$$anon$33
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$137$1$$anonfun$inst$macro$117$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$137$1$anon$macro$135$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$17$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$17$1$$anon$11
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$17$1$$anon$29
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$17$1$$anonfun$inst$macro$11$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$17$1$anon$macro$15$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$207$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$207$1$$anon$16
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$207$1$$anon$34
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$207$1$$anonfun$inst$macro$139$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$207$1$anon$macro$205$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$217$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$217$1$$anon$17
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$217$1$$anon$35
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$217$1$$anonfun$inst$macro$209$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$217$1$anon$macro$215$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$229$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$229$1$$anon$18
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$229$1$$anon$36
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$229$1$$anonfun$inst$macro$219$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$229$1$anon$macro$227$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$239$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$239$1$$anon$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$239$1$$anon$19
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$239$1$$anonfun$inst$macro$231$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$239$1$anon$macro$237$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$247$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$247$1$$anon$2
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$247$1$$anon$20
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$247$1$$anonfun$inst$macro$241$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$247$1$anon$macro$245$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$277$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$277$1$$anon$21
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$277$1$$anon$3
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$277$1$$anonfun$inst$macro$249$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$277$1$anon$macro$275$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$287$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$287$1$$anon$22
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$287$1$$anon$4
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$287$1$$anonfun$inst$macro$279$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$287$1$anon$macro$285$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$345$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$345$1$$anon$23
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$345$1$$anon$5
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$345$1$$anonfun$inst$macro$289$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$345$1$anon$macro$343$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$367$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$367$1$$anon$24
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$367$1$$anon$6
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$367$1$$anonfun$inst$macro$347$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$367$1$anon$macro$365$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$437$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$437$1$$anon$25
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$437$1$$anon$7
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$437$1$$anonfun$inst$macro$369$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$437$1$anon$macro$435$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$447$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$447$1$$anon$26
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$447$1$$anon$8
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$447$1$$anonfun$inst$macro$439$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$447$1$anon$macro$445$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$459$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$459$1$$anon$27
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$459$1$$anon$9
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$459$1$$anonfun$inst$macro$449$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$459$1$anon$macro$457$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$47$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$47$1$$anon$12
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$47$1$$anon$30
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$47$1$$anonfun$inst$macro$19$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$47$1$anon$macro$45$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$57$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$57$1$$anon$13
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$57$1$$anon$31
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$57$1$$anonfun$inst$macro$49$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$57$1$anon$macro$55$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$9$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$9$1$$anon$10
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$9$1$$anon$28
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$9$1$$anonfun$inst$macro$1$1
+   src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala -> com.ferran.projects.crypto.analytics.utils.package$anon$lazy$macro$9$1$anon$macro$7$1

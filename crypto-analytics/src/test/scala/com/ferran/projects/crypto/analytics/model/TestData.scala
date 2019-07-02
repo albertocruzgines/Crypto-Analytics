@@ -6,7 +6,7 @@ object TestData {
 
   val paging =
     Paging( List.empty,
-      "",
+      0,
       "",
       "",
       "",

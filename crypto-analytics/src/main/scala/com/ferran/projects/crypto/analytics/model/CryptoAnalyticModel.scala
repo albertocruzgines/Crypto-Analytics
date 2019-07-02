@@ -27,18 +27,16 @@ object CryptoAnalyticModel {
 
   object SmartBit {
 
-    sealed trait SmartBitResponse
-
     case class Paging(valid_sort: List[String],
-                      limit: String,
+                      limit: Int,
                       sort: String,
                       dir: String,
-                      prev: String = "",
+                      prev: Option[String] = None,
                       next: String,
-                      prev_link: String = "",
+                      prev_link: Option[String] = None,
                       next_link: String = "")
 
-    def emptyPaging = Paging(List.empty,"" ,"" ,"" ,"" ,"", "")
+    def emptyPaging = Paging(List.empty, 0 ,"" ,"" , None ,"", None, "")
 
     case class Pool(name: String,
                     link: String)
@@ -78,11 +76,11 @@ object CryptoAnalyticModel {
                            size: Int,
                            vsize: Int,
                            input_amount: String,
-                           input_amount_int: Int,
+                           input_amount_int: Long,
                            output_amount: String,
-                           output_amount_int: Int,
+                           output_amount_int: Long,
                            fee: String,
-                           fee_int: Int,
+                           fee_int: Long,
                            fee_size: String,
                            coinbase: Boolean,
                            input_count: Int,
@@ -94,10 +92,10 @@ object CryptoAnalyticModel {
                           )
 
     case class BlockDetails(height: Long,
-                            confirmations: Long,
+                            confirmations: Int,
                             hash: String,
                             previous_block_hash: String,
-                            next_block_hash: String = "",
+                            next_block_hash: Option[String] = None,
                             merkleroot: String,
                             chainwork: String,
                             size: Long,
@@ -111,21 +109,23 @@ object CryptoAnalyticModel {
                             input_count: Long,
                             output_count: Long,
                             input_amount: String,
-                            input_amount_int: Int,
+                            input_amount_int: Long,
                             output_amount: String,
-                            output_amount_int: Int,
+                            output_amount_int: Long,
                             fees: String,
-                            fees_int: Int,
+                            fees_int: Long,
                             fee_size: String,
                             reward: String,
-                            reward_int: Int,
+                            reward_int: Long,
                             pool: Pool,
                             coinbase: String,
-                            dupe_coinbase: String = "",
+                            dupe_coinbase: Option[String] = None,
                             transaction_count: Int,
-                            transaction_paging: Paging = emptyPaging,
-                            transactions: List[Transaction] = List.empty
+                            transaction_paging: Option[Paging] = None,
+                            transactions: Option[List[Transaction]] = None
                            )
+
+    sealed trait SmartBitResponse
 
     case class RecentBlocksResponse(success: Boolean,
                                     paging: Paging = emptyPaging,

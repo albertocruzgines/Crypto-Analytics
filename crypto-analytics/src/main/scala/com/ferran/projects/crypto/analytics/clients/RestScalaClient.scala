@@ -38,7 +38,7 @@ object RestScalaClient {
     retryWithBackoff(token, defaultDuration, retries)
   }
 
-
+ //TODO Remove this method by getRequest
   def checkShapeshiftAddress(uri: Uri,
                              retries: Int = 3,
                              client: Client[IO]): IO[ShapeshiftResponse] = {
@@ -55,7 +55,7 @@ object RestScalaClient {
   }
 
 
-  def getSmartBitBlockDetails[T: io.circe.Decoder](uri: Uri,
+  def getRequest[T: io.circe.Decoder](uri: Uri,
                               retries: Int = 3,
                               client: Client[IO]): IO[T] = {
 
