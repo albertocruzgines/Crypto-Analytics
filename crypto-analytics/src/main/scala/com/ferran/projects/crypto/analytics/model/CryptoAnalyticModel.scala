@@ -10,8 +10,8 @@ object CryptoAnalyticModel {
                            clientId: String,
                            expiresAt: String,
                            token: String,
-                           userId: Option[String],
-                           deletedAt: Option[String])
+                           userId: String = "",
+                           deletedAt: String = "")
 
     case class AuthResponse(access_token: AccessToken,
                             token_type: String)
@@ -33,10 +33,12 @@ object CryptoAnalyticModel {
                       limit: String,
                       sort: String,
                       dir: String,
-                      prev: Option[String],
+                      prev: String = "",
                       next: String,
-                      prev_link: Option[String],
-                      next_link: Option[String])
+                      prev_link: String = "",
+                      next_link: String = "")
+
+    def emptyPaging = Paging(List.empty,"" ,"" ,"" ,"" ,"", "")
 
     case class Pool(name: String,
                     link: String)
@@ -46,26 +48,22 @@ object CryptoAnalyticModel {
     case class Sign(asm: String,
                     hex: String)
 
+    def emptySign = Sign("", "")
 
-    case class InputDetails(addresses: List[AddressNum],
-                            value: String,
-                            value_int: Int,
-                            txid: String,
-                            vout: Int,
-                            script_sig: Sign,
-                            `type`: String,
-                            witness: List[Option[String]],
-                            sequence: Long
-                           )
 
-    case class OutputDetails(addresses: List[AddressNum],
-                             value: String,
-                             value_int: Int,
-                             n: Int,
-                             script_pub_key: Sign,
-                             req_sigs: Int,
-                             `type`: String,
-                             spend_txid: String)
+    case class InOrOutDetails(addresses: List[AddressNum],
+                              value: String,
+                              value_int: Int,
+                              txid: String = "",
+                              vout: Int = 0,
+                              script_sig: Sign = emptySign,
+                              script_pub_key: Sign = emptySign,
+                              req_sigs: Int = 0,
+                              `type`: String,
+                              witness: List[String] = List.empty,
+                              sequence: Long = 0,
+                              spend_txid: String = ""
+                             )
 
     case class Transaction(txid: String,
                            hash: String,
@@ -75,7 +73,7 @@ object CryptoAnalyticModel {
                            locktime: Int,
                            time: Long,
                            first_seen: Long,
-                           propagation: Option[String],
+                           propagation: String = "",
                            double_spend: Boolean,
                            size: Int,
                            vsize: Int,
@@ -88,9 +86,9 @@ object CryptoAnalyticModel {
                            fee_size: String,
                            coinbase: Boolean,
                            input_count: Int,
-                           inputs: List[InputDetails],
+                           inputs: List[InOrOutDetails],
                            output_count: Int,
-                           outputs: List[OutputDetails],
+                           outputs: List[InOrOutDetails],
                            tx_index: Long,
                            block_index: Long
                           )
@@ -99,7 +97,7 @@ object CryptoAnalyticModel {
                             confirmations: Long,
                             hash: String,
                             previous_block_hash: String,
-                            next_block_hash: Option[String],
+                            next_block_hash: String = "",
                             merkleroot: String,
                             chainwork: String,
                             size: Long,
@@ -123,18 +121,19 @@ object CryptoAnalyticModel {
                             reward_int: Int,
                             pool: Pool,
                             coinbase: String,
-                            dupe_coinbase: Option[String],
+                            dupe_coinbase: String = "",
                             transaction_count: Int,
-                            transaction_paging: Option[Paging] = None,
-                            transactions: Option[List[Transaction]] = None
+                            transaction_paging: Paging = emptyPaging,
+                            transactions: List[Transaction] = List.empty
                            )
 
     case class RecentBlocksResponse(success: Boolean,
-                                    paging: Option[Paging],
+                                    paging: Paging = emptyPaging,
                                     blocks: List[BlockDetails]) extends SmartBitResponse
 
     case class DetailedBlockResponse(success: Boolean,
                                      block: BlockDetails) extends SmartBitResponse
+
   }
 
 }

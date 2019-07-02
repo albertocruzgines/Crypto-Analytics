@@ -1,120 +1,38 @@
 package com.ferran.projects.crypto.analytics.model
 
 import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit._
-import io.circe.generic.JsonCodec
 import io.circe.syntax._
-import com.ferran.projects.crypto.analytics.utils.encoder12
+import com.ferran.projects.crypto.analytics.utils._
 import org.scalatest.{FlatSpec, MustMatchers}
+import TestData._
+import io.circe.generic.auto._
 
-class CryptoAnalyticalModelTest extends FlatSpec with MustMatchers{
+class CryptoAnalyticalModelTest extends FlatSpec with MustMatchers {
 
-  val paging =
-    Paging( List.empty,
-            "",
-            "",
-            "",
-            None,
-            "",
-            None,
-            None )
+  val jsonEncodedDetailedBlock = detailedBlock.asJson
 
-  val pool = Pool("", "")
+  "Encoding and decoding DetailedBlock case class" should "return the same value" in {
 
-  val addressA = AddressNum("AAAAA")
-  val addressE = AddressNum("EEEEE")
-  val addressC = AddressNum("CCCCC")
+    val block = jsonEncodedDetailedBlock.hcursor.downField("block").as[BlockDetails]
 
-  val sign = Sign("", "")
+    val blockDecoded = block match {
+      case Right(b) => b
+      case Left(exception) => throw exception
+    }
+    assert(blockDecoded == detailedBlock.block)
+  }
 
-  val input = InputDetails( List(addressA),
-                            "",
-                            0,
-                            "",
-                            0,
-                            sign,
-                            "",
-                            List.empty,
-                            0
-  )
-
-  val output = OutputDetails(List(addressE),
-                             "",
-                              0,
-                              0,
-                              sign,
-                              0,
-                              "",
-                              ""
-  )
+  "Encoding and decoding Transaction case class" should "return the same value" in {
 
 
-  val tx1 = Transaction("",
-                        "",
-                        0,
-                        0,
-                        "",
-                        0,
-                        0,
-                        0,
-                        None,
-                        false,
-                        0,
-                        0,
-                        "",
-                        0,
-                        "",
-                        0,
-                        "",
-                        0,
-                        "",
-                        false,
-                        0,
-                        List.empty,
-                        0,
-                        List(output),
-                        0,
-                        0
-  )
+    val txs = jsonEncodedDetailedBlock.hcursor.downField("block").downField("transactions").as[List[Transaction]]
 
-  val block = BlockDetails( 0,
-                            0,
-                            "",
-                            "",
-                            None,
-                            "",
-                            "",
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            "",
-                            "",
-                            0,
-                            0,
-                            "",
-                            0,
-                            "",
-                            0,
-                            "",
-                            0,
-                            "",
-                            "",
-                            0,
-                            pool,
-                            "",
-                            None,
-                            0,
-                            None,
-                            Option(List(tx1))
-                         )
-
-  val recentBlocks = RecentBlocksResponse(true, Option(paging), List(block))
-
-  val detailedBlock = DetailedBlockResponse(true, block)
-
-  detailedBlock.asJson(encoder12)
+    val txsDecoded = txs match {
+      case Right(tx) => tx
+      case Left(exception) => throw exception
+    }
+    assert(txsDecoded == detailedBlock.block.transactions)
+  }
 }
 
 

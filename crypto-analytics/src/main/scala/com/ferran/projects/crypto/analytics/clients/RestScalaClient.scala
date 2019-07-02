@@ -19,10 +19,8 @@ import scala.concurrent.duration._
 
 object RestScalaClient {
 
-
   val defaultDuration = FiniteDuration(2, TimeUnit.SECONDS)
   implicit val timer: Timer[IO] = IO.timer(ExecutionContext.global)
-
 
   def shapeshiftLogin(uri: Uri,
                       credentials: BasicCredentials,

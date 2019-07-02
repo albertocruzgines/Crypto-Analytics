@@ -9,7 +9,9 @@ import org.http4s.client.Client
 import org.http4s.client.blaze.Http1Client
 import org.http4s.{BasicCredentials, Uri}
 import com.ferran.projects.crypto.analytics.utils._
-import io.circe.generic.semiauto.deriveDecoder
+import io.circe.generic.auto._
+import io.circe.generic.semiauto._
+
 
 object BlockRequester extends App {
 
@@ -27,28 +29,27 @@ object BlockRequester extends App {
   } yield authResponse.access_token.token
 
 
-//  val recentBlocks: IO[RecentBlocksResponse] = for {
-//    uri <- IO.fromEither(Uri.fromString(urlSmartBitGetRecentBlocks))
-//    recentBlocks <- RestScalaClient.getSmartBitBlockDetails(uri, client = httpClient)
-//  } yield recentBlocks
-//
-//
+  val recentBlocks: IO[RecentBlocksResponse] = for {
+    uri <- IO.fromEither(Uri.fromString(urlSmartBitGetRecentBlocks))
+    recentBlocks <- RestScalaClient.getSmartBitBlockDetails(uri, client = httpClient)(decoder11)
+  } yield recentBlocks
+
+
 //  val interestingTransactions = recentBlocks.map(_.blocks.map(block =>
 //
 //    for {
 //      uri <- IO.fromEither(Uri.fromString(urlSmartBitGetBlockDetails))
 //      uriWithBlockHeigh = uri.withPath(s"${block.height}")
-//      blockDetails <- RestScalaClient.getSmartBitBlockDetails(uriWithBlockHeigh, client = httpClient)
-//      //TODO add a note saying that each block should have at least one transaction. If it´s not the case, we want the code to fail.
+//      blockDetails <- RestScalaClient.getSmartBitBlockDetails(uriWithBlockHeigh, client = httpClient)(decoder12)
 //      filteredTransactions = blockDetails.asInstanceOf[DetailedBlockResponse].
-//        block.transactions.get.filterInterestingTransactions("E")
+//        block.transactions.filterInterestingTransactions("E")
 //
 //      shapeshiftTransactions = filteredTransactions.map(transaction =>
 //        transaction.outputs.map(_.addresses.map(address =>
 //
 //          for {
 //            uriShapeshift <- IO.fromEither(Uri.fromString(urlShapeshiftGetStatusOfDepositToAddress))
-//            uriShapeshiftWithAddress <- uri.withPath(s"${address.address}")
+//            uriShapeshiftWithAddress = uri.withPath(s"${address.address}")
 //            check <- RestScalaClient.checkShapeshiftAddress(uriShapeshiftWithAddress, client = httpClient)
 //          } yield check
 //
@@ -57,7 +58,7 @@ object BlockRequester extends App {
 //    } yield filteredTransactions
 //  ).map(_.unsafeRunSync())
 //  ).unsafeRunSync()
-//
-//  println(recentBlocks.unsafeRunSync())
+
+  println(recentBlocks.unsafeRunSync())
 
 }

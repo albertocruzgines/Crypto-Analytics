@@ -12,11 +12,12 @@ package object utils {
   implicit final val decoder52 = deriveDecoder[Sign]
   implicit final val decoder51 = deriveDecoder[AddressNum]
 
-  implicit final val decoder42 = deriveDecoder[OutputDetails]
-  implicit final val decoder41 = deriveDecoder[InputDetails]
+  implicit final val decoder42 = deriveDecoder[InOrOutDetails]
 
+//  implicit final val decoder34 = deriveDecoder[List[Transaction]]
   implicit final val decoder33 = deriveDecoder[Pool]
   implicit final val decoder32 = deriveDecoder[Transaction]
+
   implicit final val decoder31 = deriveDecoder[Paging]
 
   implicit final val decoder2 = deriveDecoder[BlockDetails]
@@ -29,8 +30,7 @@ package object utils {
   implicit final val encoder52 = deriveEncoder[Sign]
   implicit final val encoder51 = deriveEncoder[AddressNum]
 
-  implicit final val encoder42 = deriveEncoder[OutputDetails]
-  implicit final val encoder41 = deriveEncoder[InputDetails]
+  implicit final val encoder42 = deriveEncoder[InOrOutDetails]
 
   implicit final val encoder33 = deriveEncoder[Pool]
   implicit final val encoder32 = deriveEncoder[Transaction]
