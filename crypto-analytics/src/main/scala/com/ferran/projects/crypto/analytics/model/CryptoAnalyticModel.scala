@@ -33,19 +33,34 @@ object CryptoAnalyticModel {
     case class Pool(name: String,
                     link: String)
 
-    case class OutputAddress(address: String)
+    case class AddressNum(address: String)
 
     case class PubKey(asm: String,
                       hex: String)
 
-    case class Output(addresses: List[OutputAddress],
-                      value: Double,
-                      value_int: Int,
-                      n: Int,
-                      script_pub_key: PubKey,
-                      req_sigs: Int,
-                      `type`: String,
-                      spend_txid: String)
+    case class ScriptSig(asm: String,
+                         hex: String)
+
+
+    case class InputDetails(addresses: List[AddressNum],
+                            value: String,
+                            value_int: Int,
+                            txid: String,
+                            vout: Int,
+                            script_sig: ScriptSig,
+                            `type`: String,
+                            witness: List[Option[String]],
+                            sequence: Long
+                           )
+
+    case class OutputDetails(addresses: List[AddressNum],
+                             value: Double,
+                             value_int: Int,
+                             n: Int,
+                             script_pub_key: PubKey,
+                             req_sigs: Int,
+                             `type`: String,
+                             spend_txid: String)
 
     case class Transaction(txid: String,
                            hash: String,
@@ -68,8 +83,9 @@ object CryptoAnalyticModel {
                            fee_size: String,
                            coinbase: Boolean,
                            input_count: Int,
+                           inputs: List[InputDetails],
                            output_count: Int,
-                           outputs: List[Output],
+                           outputs: List[OutputDetails],
                            tx_index: Long,
                            block_index: Long
                           )
@@ -114,7 +130,5 @@ object CryptoAnalyticModel {
 
     case class DetailedBlockRequest(success: Boolean,
                                     block: BlockDetails) extends SmartBitRequest
-
   }
-
 }
