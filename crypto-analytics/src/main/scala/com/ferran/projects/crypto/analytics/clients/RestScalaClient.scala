@@ -3,7 +3,6 @@ package com.ferran.projects.crypto.analytics.clients
 import java.util.concurrent.TimeUnit
 
 import org.http4s.Uri
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Authorization._
 import org.http4s.BasicCredentials
 import org.http4s._
 import io.circe.generic.auto._
@@ -11,7 +10,8 @@ import org.http4s.headers.{Accept, Authorization}
 import org.http4s.circe.{jsonOf, _}
 import cats.effect._
 import cats.syntax.all._
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit.{DetailedBlockRequest, RecentBlocksRequest}
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Shapeshift.{AuthResponse, ShapeshiftResponse}
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit.{DetailedBlockResponse, RecentBlocksResponse}
 import org.http4s.client.Client
 
 import scala.concurrent.ExecutionContext
@@ -38,9 +38,24 @@ object RestScalaClient {
     retryWithBackoff(token, defaultDuration, retries)
   }
 
+  def checkShapeshiftAddress(uri: Uri,
+                             retries: Int = 3,
+                             client: Client[IO]): IO[ShapeshiftResponse] = {
+
+    val checkShapeshiftAddress = {
+      Request[IO](
+        method = Method.GET,
+        uri = uri,
+        headers = Headers(Accept(MediaType.`application/json`))
+      )
+    }
+    val detailedBlock = client.expect[ShapeshiftResponse](checkShapeshiftAddress)(jsonOf[IO, ShapeshiftResponse])
+    retryWithBackoff(detailedBlock, defaultDuration, retries)
+  }
+
   def getSmartBitRecentBlocks(uri: Uri,
                               retries: Int = 3,
-                              client: Client[IO]): IO[RecentBlocksRequest] = {
+                              client: Client[IO]): IO[RecentBlocksResponse] = {
 
     val getRecentBlocksRequest = {
       Request[IO](
@@ -49,13 +64,14 @@ object RestScalaClient {
         headers = Headers(Accept(MediaType.`application/json`))
       )
     }
-    val recentBlocks = client.expect[RecentBlocksRequest](getRecentBlocksRequest)(jsonOf[IO, RecentBlocksRequest])
+    val recentBlocks = client.expect[RecentBlocksResponse](getRecentBlocksRequest)(jsonOf[IO, RecentBlocksResponse])
     retryWithBackoff(recentBlocks, defaultDuration, retries)
   }
-//TODO change both request methods to one generic
+
+  //TODO change both request methods to one generic
   def getSmartBitBlockDetails(uri: Uri,
-                      retries: Int = 3,
-                      client: Client[IO]): IO[DetailedBlockRequest] = {
+                              retries: Int = 3,
+                              client: Client[IO]): IO[DetailedBlockResponse] = {
 
     val getBlockDetails = {
       Request[IO](
@@ -64,7 +80,7 @@ object RestScalaClient {
         headers = Headers(Accept(MediaType.`application/json`))
       )
     }
-    val detailedBlock = client.expect[DetailedBlockRequest](getBlockDetails)(jsonOf[IO, DetailedBlockRequest])
+    val detailedBlock = client.expect[DetailedBlockResponse](getBlockDetails)(jsonOf[IO, DetailedBlockResponse])
     retryWithBackoff(detailedBlock, defaultDuration, retries)
   }
 
@@ -78,5 +94,4 @@ object RestScalaClient {
         IO.raiseError(error)
     }
   }
-
 }

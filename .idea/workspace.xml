@@ -2,102 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8f84b2-86ae-47f0-8145-2f4bdca13f3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__co_fs2_fs2_core_2_11_0_10_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__co_fs2_fs2_io_2_11_0_10_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__co_fs2_fs2_scodec_2_11_0_10_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_chuusai_shapeless_2_11_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_madgag_spongycastle_core_1_58_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__fr_acinq_bitcoin_lib_2_11_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__fr_acinq_bitcoin_secp256k1_jni_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_core_2_11_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_generic_2_11_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_jawn_2_11_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_literal_2_11_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_numbers_2_11_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_blaze_core_2_11_0_12_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_blaze_http_2_11_0_12_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_blaze_client_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_blaze_core_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_blaze_server_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_circe_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_client_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_core_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_dsl_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_jawn_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_server_2_11_0_18_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_websocket_2_11_0_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_jawn_fs2_2_11_0_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_parboiled_2_11_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_log4s_log4s_2_11_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scodec_scodec_bits_2_11_1_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_spire_math_jawn_parser_2_11_0_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_cats_core_2_11_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_cats_effect_2_11_0_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_cats_kernel_2_11_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_cats_macros_2_11_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_machinist_2_11_0_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_macro_compat_2_11_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.ferran.projects.codingChallenge.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.ferran.projects.codingChallenge.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__co_fs2_fs2_core_2_12_0_10_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__co_fs2_fs2_io_2_12_0_10_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__co_fs2_fs2_scodec_2_12_0_10_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_chuusai_shapeless_2_12_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_core_2_12_0_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_generic_2_12_0_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_jawn_2_12_0_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_literal_2_12_0_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_circe_circe_numbers_2_12_0_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_blaze_core_2_12_0_12_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_blaze_http_2_12_0_12_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_blaze_client_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_blaze_core_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_blaze_server_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_circe_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_client_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_core_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_dsl_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_jawn_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_server_2_12_0_18_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_http4s_websocket_2_12_0_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_jawn_fs2_2_12_0_12_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_http4s_parboiled_2_12_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_log4s_log4s_2_12_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_12_1_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_12_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_12_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_12_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scodec_scodec_bits_2_12_1_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_spire_math_jawn_parser_2_12_0_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_cats_core_2_12_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_cats_effect_2_12_0_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_cats_kernel_2_12_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_cats_macros_2_12_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_machinist_2_12_0_6_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_typelevel_macro_compat_2_12_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_madgag_spongycastle_core_1_58_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__fr_acinq_bitcoin_lib_2_11_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__fr_acinq_bitcoin_secp256k1_jni_1_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/dependency-versions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/dependency-versions.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -161,14 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#46#115#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="166">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -176,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="291">
+              <caret line="47" column="27" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="27" />
               <folding>
                 <element signature="e#54#90#0" expanded="true" />
               </folding>
@@ -185,11 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+            <state relative-caret-position="270">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="881">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -197,11 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding>
-                <element signature="e#52#180#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -210,16 +131,7 @@
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.acinq/bitcoin-lib_2.11/0.12/702f9f4b39aa783addfa435752d54eb1446a5fea/bitcoin-lib_2.11-0.12-sources.jar!/fr/acinq/bitcoin/Crypto.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
-              <caret line="153" column="31" lean-forward="true" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scodec/scodec-bits_2.11/1.1.9/9c83a688be9b84af7f6717222cde38736ec24a93/scodec-bits_2.11-1.1.9-sources.jar!/scodec/bits/ByteVector.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+              <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -296,8 +208,6 @@
         <option value="$PROJECT_DIR$/gradle/dependency-versions-scala-2.11.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
-        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" />
-        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/Base58.scala" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/Crypto.scala" />
@@ -306,6 +216,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" />
+        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" />
+        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" />
       </list>
     </option>
   </component>
@@ -407,7 +319,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562037612537" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562039067619" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -512,8 +424,8 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966216" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="1" sideWeight="0.5033784" side_tool="true" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497307" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" sideWeight="0.502693" side_tool="true" visible="true" weight="0.2532189" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -526,10 +438,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49928468" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49928468" weight="0.28674698" />
       <window_info anchor="bottom" id="SBT Console" order="8" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49642345" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49642345" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5035765" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49642345" weight="0.213253" />
@@ -644,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -679,51 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.acinq/bitcoin-lib_2.11/0.12/702f9f4b39aa783addfa435752d54eb1446a5fea/bitcoin-lib_2.11-0.12-sources.jar!/fr/acinq/bitcoin/Crypto.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="153" column="31" lean-forward="true" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scodec/scodec-bits_2.11/1.1.9/9c83a688be9b84af7f6717222cde38736ec24a93/scodec-bits_2.11-1.1.9-sources.jar!/scodec/bits/ByteVector.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.acinq/bitcoin-lib_2.11/0.12/702f9f4b39aa783addfa435752d54eb1446a5fea/bitcoin-lib_2.11-0.12-sources.jar!/fr/acinq/bitcoin/Protocol.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding>
-            <element signature="e#54#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="e#52#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -734,13 +598,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scodec/scodec-bits_2.11/1.1.9/9c83a688be9b84af7f6717222cde38736ec24a93/scodec-bits_2.11-1.1.9-sources.jar!/scodec/bits/ByteVector.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.acinq/bitcoin-lib_2.11/0.12/702f9f4b39aa783addfa435752d54eb1446a5fea/bitcoin-lib_2.11-0.12-sources.jar!/fr/acinq/bitcoin/Crypto.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="153" column="31" selection-start-line="153" selection-start-column="31" selection-end-line="153" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="166">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="27" />
           <folding>
-            <element signature="e#46#115#0" expanded="true" />
+            <element signature="e#54#90#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>

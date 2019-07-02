@@ -2,7 +2,7 @@ package com.ferran.projects.crypto.analytics.model
 
 object CryptoAnalyticModel {
 
-  object Authorization {
+  object Shapeshift {
 
     case class AccessToken(createdAt: String,
                            updatedAt: String,
@@ -15,11 +15,19 @@ object CryptoAnalyticModel {
 
     case class AuthResponse(access_token: AccessToken,
                             token_type: String)
+
+    case class ShapeshiftResponse(status: String,
+                                  address: String,
+                                  withdraw: String,
+                                  incomingCoin: Double,
+                                  incomingType: String,
+                                  transaction: String,
+                                  transactionURL: String)
   }
 
   object SmartBit {
 
-    sealed trait SmartBitRequest
+    sealed trait SmartBitResponse
 
     case class Paging(valid_sort: List[String],
                       limit: String,
@@ -124,11 +132,11 @@ object CryptoAnalyticModel {
                             transactions: Option[List[Transaction]] = None
                            )
 
-    case class RecentBlocksRequest(success: Boolean,
-                                   paging: Option[Paging],
-                                   blocks: List[BlockDetails]) extends SmartBitRequest
+    case class RecentBlocksResponse(success: Boolean,
+                                    paging: Option[Paging],
+                                    blocks: List[BlockDetails]) extends SmartBitResponse
 
-    case class DetailedBlockRequest(success: Boolean,
-                                    block: BlockDetails) extends SmartBitRequest
+    case class DetailedBlockResponse(success: Boolean,
+                                     block: BlockDetails) extends SmartBitResponse
   }
 }

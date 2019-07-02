@@ -1,11 +1,6 @@
 package com.ferran.projects.crypto.analytics.utils
 
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit.{BlockDetails, DetailedBlockRequest, Transaction}
-
-import scala.collection.immutable
-import fr.acinq.bitcoin._
-import fr.acinq.bitcoin.Crypto._
-import scodec.bits.ByteVector
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit.{BlockDetails, DetailedBlockResponse, Transaction}
 
 object CryptoAnalyiticUtils {
 

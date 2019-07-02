@@ -1,10 +1,9 @@
 package com.ferran.projects.crypto.analytics
 
-import com.ferran.projects.crypto.analytics.clients.RestScalaClient._
 import cats.effect.IO
 import com.ferran.projects.crypto.analytics.clients.RestScalaClient
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.{Authorization, SmartBit}
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit.RecentBlocksRequest
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.{Shapeshift, SmartBit}
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit.RecentBlocksResponse
 import com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils._
 import org.http4s.client.Client
 import org.http4s.client.blaze.Http1Client
@@ -22,27 +21,41 @@ object BlockRequester extends App {
   } yield authResponse.access_token.token
 
 
-  val urlGetRecentBlocks = "https://api.smartbit.com.au/v1/blockchain/blocks"
+  val urlSmartBitGetRecentBlocks = "https://api.smartbit.com.au/v1/blockchain/blocks"
 
-  val recentBlocks: IO[RecentBlocksRequest] = for {
-    uri <- IO.fromEither(Uri.fromString(urlGetRecentBlocks))
+  val recentBlocks: IO[RecentBlocksResponse] = for {
+    uri <- IO.fromEither(Uri.fromString(urlSmartBitGetRecentBlocks))
     recentBlocks <- RestScalaClient.getSmartBitRecentBlocks(uri, client = httpClient)
   } yield recentBlocks
 
-  val urlGetBlockDetails = "https://api.smartbit.com.au/v1/blockchain/block/"
+  val urlSmartBitGetBlockDetails = "https://api.smartbit.com.au/v1/blockchain/block/"
+
+  val urlShapeshiftGetStatusOfDepositToAddress = "shapeshift.io/txstat/"
 
   val interestingTransactions = recentBlocks.map(_.blocks.map(block =>
-     for {
-      uri <- IO.fromEither(Uri.fromString(urlGetBlockDetails))
+
+    for {
+      uri <- IO.fromEither(Uri.fromString(urlSmartBitGetBlockDetails))
       uriWithBlockHeigh = uri.withPath(s"${block.height}")
-      blockDetails: SmartBit.SmartBitRequest <- RestScalaClient.getSmartBitBlockDetails(uriWithBlockHeigh, client = httpClient)
+      blockDetails: SmartBit.SmartBitResponse <- RestScalaClient.getSmartBitBlockDetails(uriWithBlockHeigh, client = httpClient)
       //TODO add a note saying that each block should have at least one transaction. If it´s not the case, we want the code to fail.
       filteredTransactions = blockDetails.block.transactions.get.filterInterestingTransactions("E")
+
+      shapeshiftTransactions = filteredTransactions.map(transaction =>
+        transaction.outputs.map(_.addresses.map(address =>
+
+          for {
+            uriShapeshift <- IO.fromEither(Uri.fromString(urlShapeshiftGetStatusOfDepositToAddress))
+            uriShapeshiftWithAddress <- uri.withPath(s"${address.address}")
+            check <- RestScalaClient.checkShapeshiftAddress(uriShapeshiftWithAddress, client = httpClient)
+          } yield check
+
+        ))
+      )
     } yield filteredTransactions
-  )
-  )
+  ).map(_.unsafeRunSync())
+  ).unsafeRunSync()
 
   println(recentBlocks.unsafeRunSync())
-
 
 }
