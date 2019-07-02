@@ -11,5 +11,5 @@ ext {
 	scalaLibVersion = "2.11.8"
 	circe = "0.9.3"
 	bitcoin = "0.12"
-
+	scalaTestVersion = "3.0.5"
 }

@@ -43,11 +43,8 @@ object CryptoAnalyticModel {
 
     case class AddressNum(address: String)
 
-    case class PubKey(asm: String,
-                      hex: String)
-
-    case class ScriptSig(asm: String,
-                         hex: String)
+    case class Sign(asm: String,
+                    hex: String)
 
 
     case class InputDetails(addresses: List[AddressNum],
@@ -55,17 +52,17 @@ object CryptoAnalyticModel {
                             value_int: Int,
                             txid: String,
                             vout: Int,
-                            script_sig: ScriptSig,
+                            script_sig: Sign,
                             `type`: String,
                             witness: List[Option[String]],
                             sequence: Long
                            )
 
     case class OutputDetails(addresses: List[AddressNum],
-                             value: Double,
+                             value: String,
                              value_int: Int,
                              n: Int,
-                             script_pub_key: PubKey,
+                             script_pub_key: Sign,
                              req_sigs: Int,
                              `type`: String,
                              spend_txid: String)
@@ -78,7 +75,7 @@ object CryptoAnalyticModel {
                            locktime: Int,
                            time: Long,
                            first_seen: Long,
-                           propagation: Option[Any],
+                           propagation: Option[String],
                            double_spend: Boolean,
                            size: Int,
                            vsize: Int,
@@ -102,7 +99,7 @@ object CryptoAnalyticModel {
                             confirmations: Long,
                             hash: String,
                             previous_block_hash: String,
-                            next_block_hash: Option[Any],
+                            next_block_hash: Option[String],
                             merkleroot: String,
                             chainwork: String,
                             size: Long,
@@ -126,7 +123,7 @@ object CryptoAnalyticModel {
                             reward_int: Int,
                             pool: Pool,
                             coinbase: String,
-                            dupe_coinbase: Option[Any],
+                            dupe_coinbase: Option[String],
                             transaction_count: Int,
                             transaction_paging: Option[Paging] = None,
                             transactions: Option[List[Transaction]] = None
@@ -139,4 +136,5 @@ object CryptoAnalyticModel {
     case class DetailedBlockResponse(success: Boolean,
                                      block: BlockDetails) extends SmartBitResponse
   }
+
 }

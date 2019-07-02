@@ -75,6 +75,7 @@ project("crypto-analytics") {
         compile("org.http4s:http4s-circe_$scalaVersion:$http4s")
         compile("io.circe:circe-generic_$scalaVersion:$circe")
         compile("io.circe:circe-literal_$scalaVersion:$circe")
+        compile("org.scalatest:scalatest_$scalaVersion:$scalaTestVersion")
     }
 	
 }
