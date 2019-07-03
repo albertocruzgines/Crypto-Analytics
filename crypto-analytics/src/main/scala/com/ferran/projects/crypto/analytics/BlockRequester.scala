@@ -3,8 +3,8 @@ package com.ferran.projects.crypto.analytics
 import cats.effect.IO
 import com.ferran.projects.crypto.analytics.clients.RestScalaClient
 import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Shapeshift.ShapeshiftResponse
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.{Shapeshift, SmartBit}
 import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit._
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Urls
 import com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils._
 import org.http4s.client.Client
 import org.http4s.client.blaze.Http1Client
@@ -19,8 +19,9 @@ object BlockRequester extends App {
 
   val logger = LoggerFactory.getLogger(this.getClass)
 
-  val credentials = BasicCredentials("", "")
   val httpClient: Client[IO] = Http1Client[IO]().unsafeRunSync
+
+  val credentials = BasicCredentials("", "")
   val urlAuth = "https://auth.shapeshift.io/oauth/token"
   val urlSmartBitGetRecentBlocks = "https://api.smartbit.com.au/v1/blockchain/blocks"
   val urlSmartBitGetBlockDetails = "https://api.smartbit.com.au/v1/blockchain/block/"
@@ -58,15 +59,11 @@ object BlockRequester extends App {
 
   val interestingTransactions = for {
     recentBlocks <- recentBlocksIO
-    _ = logger.info("Starting the script. ")
     _ = println("Starting the script")
-    _ = logger.info(s"Getting  ${recentBlocks.blocks.size} recent blocks")
     _ = println(s"Getting  ${recentBlocks.blocks.size} recent blocks")
     interestingTx = recentBlocks.blocks.get.map(block => for {
       filteredTx <- filteredBlocksIO(block.height)
-      _ = logger.info(s"Processing block with height: ${block.height} ")
       _ = println(s"Processing block with height: ${block.height} ")
-      _ = logger.info(s"Transactions with interesting pattern: ${filteredTx.map(_.txid)} ")
       _ = println(s"Transactions with interesting pattern: ${filteredTx.map(_.txid)} ")
 
       shapeshitResponse = filteredTx.map(tx =>
@@ -74,8 +71,7 @@ object BlockRequester extends App {
           txOutput.addresses.get
             .map(address => for {
               shapeshiftTx <- checkAddressShapeshiftIO(address)
-              _ = elasticLoader(shapeshiftTx)
-              _ = logger.info(s"Shapeshit response: ${shapeshiftTx} ")
+              _ = if (shapeshiftTx.status.equals("complete")) {elasticLoad(shapeshiftTx)}
               _ = println(s"Shapeshit response: ${shapeshiftTx} ")
             } yield shapeshiftTx
             ).map(_.unsafeRunSync())
