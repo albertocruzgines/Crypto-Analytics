@@ -38,23 +38,6 @@ object RestScalaClient {
     retryWithBackoff(token, defaultDuration, retries)
   }
 
- //TODO Remove this method by getRequest
-  def checkShapeshiftAddress(uri: Uri,
-                             retries: Int = 3,
-                             client: Client[IO]): IO[ShapeshiftResponse] = {
-
-    val checkShapeshiftAddress = {
-      Request[IO](
-        method = Method.GET,
-        uri = uri,
-        headers = Headers(Accept(MediaType.`application/json`))
-      )
-    }
-    val detailedBlock = client.expect[ShapeshiftResponse](checkShapeshiftAddress)(jsonOf[IO, ShapeshiftResponse])
-    retryWithBackoff(detailedBlock, defaultDuration, retries)
-  }
-
-
   def getRequest[T: io.circe.Decoder](uri: Uri,
                               retries: Int = 3,
                               client: Client[IO]): IO[T] = {

@@ -52,8 +52,8 @@ object BlockRequester extends App {
     uri <- IO.fromEither(Uri.fromString(s"${urlShapeshiftGetStatusOfDepositToAddress}${address}"))
     _ = println(s"Uri: ${uri.toString()} ")
     _ = println(s"Processing block with address: ${address} ")
-    check <- RestScalaClient.checkShapeshiftAddress(uri, client = httpClient)
-  } yield check
+    checkAddress <- RestScalaClient.getRequest(uri, client = httpClient)(decoder13)
+  } yield checkAddress
 
 
   val interestingTransactions = for {
