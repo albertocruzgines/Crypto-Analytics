@@ -2,7 +2,7 @@
 
 ### How to run the application
 
-This application has been written in scala and tested through the IDE Intellij Community Edition 2018.3.
+This application has been written in scala and tested through the IDE Intellij Community Edition 2018.3. The build tool used is Gradle.
 
 It will require to have an elastic server running on localhost:9200 or change its value in **CryptoAnalyiticUtils** object, inside **elasticLoad** method.
 
