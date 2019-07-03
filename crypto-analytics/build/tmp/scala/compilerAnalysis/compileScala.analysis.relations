@@ -41,12 +41,6 @@ products:
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1.class
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Credentials$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Credentials.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$CryptoAnalyticsConfig$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$CryptoAnalyticsConfig.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Elastic$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Elastic.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$AccessToken$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$AccessToken.class
@@ -74,8 +68,6 @@ products:
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$SmartBitResponse.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Transaction$.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Transaction.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Urls$.class
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Urls.class
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.class
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$.class
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$CharacterIndexable$2$.class
@@ -283,12 +275,6 @@ class names:
    src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala -> com.ferran.projects.crypto.analytics.clients.RestScalaClient$anon$importedDecoder$macro$517$1$anon$macro$506$1
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Credentials
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Credentials$
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$CryptoAnalyticsConfig
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$CryptoAnalyticsConfig$
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Elastic
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Elastic$
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Shapeshift$
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Shapeshift$AccessToken
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Shapeshift$AccessToken$
@@ -316,8 +302,6 @@ class names:
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$SmartBitResponse
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Transaction
    src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$SmartBit$Transaction$
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Urls
-   src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala -> com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel$Urls$
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils$
    src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala -> com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils$CharacterIndexable$2$

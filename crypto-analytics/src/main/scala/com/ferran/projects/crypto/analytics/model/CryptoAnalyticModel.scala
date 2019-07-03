@@ -4,18 +4,6 @@ import org.http4s.BasicCredentials
 
 object CryptoAnalyticModel {
 
-  case class Urls(urlAuth: String,
-                  urlSmartBitGetRecentBlocks: String,
-                  urlSmartBitGetBlockDetails: String,
-                  urlShapeshiftGetStatusOfDepositToAddress: String,
-                  urlElastic: String
-                 )
-
-  case class Credentials (basicCredentials: BasicCredentials)
-  case class Elastic (index : String, docType: String)
-
-  case class CryptoAnalyticsConfig(urls: Urls, credentials: BasicCredentials, elastic: Elastic)
-
   object Shapeshift {
 
     case class AccessToken(createdAt: String,

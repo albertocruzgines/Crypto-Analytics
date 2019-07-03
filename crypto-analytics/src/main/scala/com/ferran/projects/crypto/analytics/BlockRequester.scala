@@ -4,7 +4,6 @@ import cats.effect.IO
 import com.ferran.projects.crypto.analytics.clients.RestScalaClient
 import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Shapeshift.ShapeshiftResponse
 import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit._
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Urls
 import com.ferran.projects.crypto.analytics.utils.CryptoAnalyiticUtils._
 import org.http4s.client.Client
 import org.http4s.client.blaze.Http1Client
