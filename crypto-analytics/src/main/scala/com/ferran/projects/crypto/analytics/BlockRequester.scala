@@ -74,6 +74,7 @@ object BlockRequester extends App {
           txOutput.addresses.get
             .map(address => for {
               shapeshiftTx <- checkAddressShapeshiftIO(address)
+              _ = elasticLoader(shapeshiftTx)
               _ = logger.info(s"Shapeshit response: ${shapeshiftTx} ")
               _ = println(s"Shapeshit response: ${shapeshiftTx} ")
             } yield shapeshiftTx

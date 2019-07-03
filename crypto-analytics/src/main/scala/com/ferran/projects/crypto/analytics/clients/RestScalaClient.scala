@@ -10,8 +10,7 @@ import org.http4s.headers.{Accept, Authorization}
 import org.http4s.circe.{jsonOf, _}
 import cats.effect._
 import cats.syntax.all._
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Shapeshift.{AuthResponse, ShapeshiftResponse}
-import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit.Transaction
+import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Shapeshift.{AuthResponse}
 import org.http4s.client.Client
 
 import scala.concurrent.ExecutionContext

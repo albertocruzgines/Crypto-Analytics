@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sksamuel.elastic4s:elastic4s-circe_2.11:6.3.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.elastic4s/elastic4s-circe_2.11/6.3.3/ba24be4096e280e20e27a4879f90beac3b4950ab/elastic4s-circe_2.11-6.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.elastic4s/elastic4s-circe_2.11/6.3.3/29ae8d4a4d937f98242d190153f5b4f646b4d2b5/elastic4s-circe_2.11-6.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -2,231 +2,237 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8f84b2-86ae-47f0-8145-2f4bdca13f3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_paranamer_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sksamuel_elastic4s_elastic4s_circe_2_11_6_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sksamuel_elastic4s_elastic4s_core_2_11_6_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sksamuel_elastic4s_elastic4s_embedded_2_11_6_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sksamuel_elastic4s_elastic4s_http_2_11_6_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sksamuel_elastic4s_elastic4s_http_streams_2_11_6_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sksamuel_elastic4s_elastic4s_testkit_2_11_6_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sksamuel_exts_exts_2_11_1_60_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tdunning_t_digest_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_akka_akka_actor_2_11_2_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_config_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_1_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpasyncclient_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_nio_4_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_analyzers_common_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_backward_codecs_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_core_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_grouping_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_highlighter_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_join_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_memory_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_misc_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_queries_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_queryparser_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_sandbox_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_spatial3d_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_spatial_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_spatial_extras_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_lucene_lucene_suggest_7_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_client_elasticsearch_rest_client_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_client_transport_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_elasticsearch_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_elasticsearch_cli_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_elasticsearch_core_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_elasticsearch_secure_sm_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_elasticsearch_x_content_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_plugin_lang_mustache_client_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_plugin_parent_join_client_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_plugin_percolator_client_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_plugin_rank_eval_client_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_plugin_reindex_client_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_elasticsearch_plugin_transport_netty4_client_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/crypto-analytics/com.ferran.projects.crypto-analytics.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/codingChallenge-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$checkAddressShapeshiftIO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$checkAddressShapeshiftIO$2$$anonfun$apply$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$checkAddressShapeshiftIO$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$filteredBlocksIO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$filteredBlocksIO$2$$anonfun$apply$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$filteredBlocksIO$2$$anonfun$apply$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$filteredBlocksIO$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$recentBlocksIO$1$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$recentBlocksIO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$shapeshiftLogin$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$shapeshiftLogin$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/BlockRequester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$retryWithBackoff$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$$anon$5$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$$anon$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$$anonfun$inst$macro$489$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$$anonfun$inst$macro$497$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$anon$macro$495$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1$anon$macro$506$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$517$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$539$1$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$539$1$$anon$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$539$1$$anonfun$inst$macro$519$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$539$1$anon$macro$537$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$539$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/clients/RestScalaClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$AccessToken$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$AccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$AuthResponse$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$AuthResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$ShapeshiftResponse$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$Shapeshift$ShapeshiftResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Address$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$BlockDetails$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$BlockDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$DetailedBlockResponse$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$DetailedBlockResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$InOrOutDetails$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$InOrOutDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Paging$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Paging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Pool$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Pool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$RecentBlocksResponse$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$RecentBlocksResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Sign$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Sign.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$SmartBitResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Transaction$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel$SmartBit$Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$$anonfun$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$107$1$$anon$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$107$1$$anon$31.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$107$1$$anonfun$inst$macro$51$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$107$1$anon$macro$105$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$107$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$129$1$$anon$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$129$1$$anon$32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$129$1$$anonfun$inst$macro$109$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$129$1$anon$macro$127$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$129$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$199$1$$anon$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$199$1$$anon$33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$199$1$$anonfun$inst$macro$131$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$199$1$anon$macro$197$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$199$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$221$1$$anon$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$221$1$$anon$34.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$221$1$$anonfun$inst$macro$201$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$221$1$anon$macro$219$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$221$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$231$1$$anon$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$231$1$$anon$35.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$231$1$$anonfun$inst$macro$223$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$231$1$anon$macro$229$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$231$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$243$1$$anon$18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$243$1$$anon$36.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$243$1$$anonfun$inst$macro$233$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$243$1$anon$macro$241$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$243$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$253$1$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$253$1$$anon$19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$253$1$$anonfun$inst$macro$245$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$253$1$anon$macro$251$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$253$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$$anon$20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$$anonfun$inst$macro$255$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$anon$macro$281$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$293$1$$anon$21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$293$1$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$293$1$$anonfun$inst$macro$285$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$293$1$anon$macro$291$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$293$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$351$1$$anon$22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$351$1$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$351$1$$anonfun$inst$macro$295$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$351$1$anon$macro$349$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$351$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$373$1$$anon$23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$373$1$$anon$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$373$1$$anonfun$inst$macro$353$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$373$1$anon$macro$371$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$373$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$39$1$$anon$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$39$1$$anon$29.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$39$1$$anonfun$inst$macro$11$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$39$1$anon$macro$37$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$39$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$443$1$$anon$24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$443$1$$anon$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$443$1$$anonfun$inst$macro$375$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$443$1$anon$macro$441$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$443$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$465$1$$anon$25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$465$1$$anon$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$465$1$$anonfun$inst$macro$445$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$465$1$anon$macro$463$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$465$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$475$1$$anon$26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$475$1$$anon$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$475$1$$anonfun$inst$macro$467$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$475$1$anon$macro$473$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$475$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$487$1$$anon$27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$487$1$$anon$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$487$1$$anonfun$inst$macro$477$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$487$1$anon$macro$485$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$487$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$49$1$$anon$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$49$1$$anon$30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$49$1$$anonfun$inst$macro$41$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$49$1$anon$macro$47$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$49$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1$$anon$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1$$anon$28.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1$$anonfun$inst$macro$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1$anon$macro$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$9$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/main/com/ferran/projects/crypto/analytics/utils/package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/test/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/test/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/test/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/test/com/ferran/projects/crypto/analytics/model/TestData$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/classes/scala/test/com/ferran/projects/crypto/analytics/model/TestData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/libs/crypto-analytics_2.11-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/images/infoprovided.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/images/testcanceled.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/images/testfailed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/images/testignored.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/images/testpending.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/images/testsucceeded.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/js/d3.v2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/reports/tests/test/js/sorttable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/test-results/test/TEST-com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/test-results/test/TEST-org.scalatest.tools.DiscoverySuite-4b65e44b-64f5-49fa-8b20-dced823c6d6f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/test-results/test/TEST-org.scalatest.tools.DiscoverySuite-7b5af69b-76bf-4c71-8a24-9e2e836e66c5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/test-results/test/TEST-org.scalatest.tools.DiscoverySuite-af9a547a-bdbb-4e17-9c22-cefeddf7cff9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/test-results/test/TEST-org.scalatest.tools.DiscoverySuite-b9545b03-f8ad-455a-a5a6-ab74a8e87028.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/tmp/scala/compilerAnalysis/compileScala.analysis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypto-analytics/build/tmp/scala/compilerAnalysis/compileTestScala.analysis.relations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6$$anonfun$5$$anonfun$apply$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$2$$anonfun$apply$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$checkAddressShapeshiftIO$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$checkAddressShapeshiftIO$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$filteredBlocksIO$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$filteredBlocksIO$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$recentBlocksIO$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$recentBlocksIO$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$shapeshiftLogin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$$anonfun$shapeshiftLogin$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/BlockRequester$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$retryWithBackoff$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$$anonfun$retryWithBackoff$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$4$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anonfun$inst$macro$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$$anonfun$inst$macro$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$anon$macro$18$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1$anon$macro$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/clients/RestScalaClient$anon$importedDecoder$macro$29$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions$$anonfun$filterInterestingTransactions$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils$PimpedTransactions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$$anonfun$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$101$1$$anon$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$101$1$$anon$30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$101$1$$anonfun$inst$macro$93$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$101$1$anon$macro$99$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$101$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$159$1$$anon$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$159$1$$anon$31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$159$1$$anonfun$inst$macro$103$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$159$1$anon$macro$157$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$159$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$181$1$$anon$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$181$1$$anon$32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$181$1$$anonfun$inst$macro$161$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$181$1$anon$macro$179$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$181$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$251$1$$anon$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$251$1$$anon$33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$251$1$$anonfun$inst$macro$183$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$251$1$anon$macro$249$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$251$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$273$1$$anon$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$273$1$$anon$34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$273$1$$anonfun$inst$macro$253$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$273$1$anon$macro$271$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$273$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$$anon$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$$anon$35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$$anonfun$inst$macro$275$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$anon$macro$281$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1$anon$macro$281$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$283$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$295$1$$anon$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$295$1$$anon$36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$295$1$$anonfun$inst$macro$285$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$295$1$anon$macro$293$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$295$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$305$1$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$305$1$$anon$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$305$1$$anonfun$inst$macro$297$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$305$1$anon$macro$303$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$305$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$335$1$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$335$1$$anon$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$335$1$$anonfun$inst$macro$307$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$335$1$anon$macro$333$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$335$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1$$anon$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1$$anonfun$inst$macro$337$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1$anon$macro$343$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$345$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$403$1$$anon$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$403$1$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$403$1$$anonfun$inst$macro$347$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$403$1$anon$macro$401$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$403$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$425$1$$anon$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$425$1$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$425$1$$anonfun$inst$macro$405$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$425$1$anon$macro$423$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$425$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$495$1$$anon$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$495$1$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$495$1$$anonfun$inst$macro$427$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$495$1$anon$macro$493$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$495$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$517$1$$anon$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$517$1$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$517$1$$anonfun$inst$macro$497$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$517$1$anon$macro$515$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$517$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$527$1$$anon$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$527$1$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$527$1$$anonfun$inst$macro$519$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$527$1$anon$macro$525$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$527$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$539$1$$anon$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$539$1$$anon$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$539$1$$anonfun$inst$macro$529$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$539$1$anon$macro$537$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$539$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$61$1$$anon$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$61$1$$anon$28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$61$1$$anonfun$inst$macro$53$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$61$1$anon$macro$59$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$61$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$91$1$$anon$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$91$1$$anon$29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$91$1$$anonfun$inst$macro$63$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$91$1$anon$macro$89$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/out/production/classes/com/ferran/projects/crypto/analytics/utils/package$anon$lazy$macro$91$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/dependency-versions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/dependency-versions.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -290,11 +296,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#46#67#0" expanded="true" />
               </folding>
@@ -305,20 +311,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <element signature="e#54#90#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -326,8 +329,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="735">
+              <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+              <folding>
+                <element signature="e#52#151#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -335,8 +341,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="387">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -344,10 +350,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="585">
+              <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
               <folding>
-                <element signature="e#46#71#0" expanded="true" />
+                <element signature="e#47#146#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -383,6 +389,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/dependency-versions.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -395,7 +413,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>scalaLibVersion</find>
       <find>&quot;</find>
       <find>ByteVector</find>
       <find>Binar</find>
@@ -424,10 +441,12 @@
       <find>script_sig</find>
       <find>locktime</find>
       <find>value_int</find>
+      <find>2.12</find>
       <find>withdraw</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>$scalaVersion</replace>
       <replace>encoder</replace>
     </replaceStrings>
     <dirStrings>
@@ -448,21 +467,22 @@
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
+        <option value="$PROJECT_DIR$/crypto-analytics/src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala" />
+        <option value="$PROJECT_DIR$/crypto-analytics/src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala" />
         <option value="$PROJECT_DIR$/gradle/dependency-versions.gradle" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala" />
-        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala" />
-        <option value="$PROJECT_DIR$/crypto-analytics/src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala" />
-        <option value="$PROJECT_DIR$/crypto-analytics/src/test/scala/com/ferran/projects/crypto/analytics/model/TestData.scala" />
-        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala" />
+        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala" />
+        <option value="$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -524,7 +544,22 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codingChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingChallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="crypto-analytics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="analytics" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codingChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codingChallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -533,7 +568,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562111954051" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562116031353" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -714,7 +749,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4901257" visible="true" weight="0.29041487" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4901257" visible="true" weight="0.29041487" />
       <window_info id="Structure" order="1" sideWeight="0.50987434" side_tool="true" weight="0.26752505" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -723,7 +758,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -731,7 +766,7 @@
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49928468" weight="0.28674698" />
       <window_info anchor="bottom" id="SBT Console" order="8" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49642345" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49642345" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5035765" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49642345" weight="0.213253" />
@@ -871,16 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/dependency-versions.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -937,16 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="27" column="121" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
-          <folding>
-            <element signature="e#52#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/66a32abd59b3f9bb690bba2efc7d7ef680157bcd/scala-library-2.11.12-sources.jar!/scala/AnyVal.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -961,54 +976,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+        <state relative-caret-position="585">
+          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+          <folding>
+            <element signature="e#47#146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala">
+    <entry file="file://$PROJECT_DIR$/gradle/dependency-versions.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="387">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/test/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticalModelTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="27" column="121" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
+          <folding>
+            <element signature="e#52#132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/clients/RestScalaClient.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="e#54#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="e#46#71#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/BlockRequester.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#46#67#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/utils/CryptoAnalyiticUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+          <folding>
+            <element signature="e#52#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto-analytics/src/main/scala/com/ferran/projects/crypto/analytics/model/CryptoAnalyticModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>

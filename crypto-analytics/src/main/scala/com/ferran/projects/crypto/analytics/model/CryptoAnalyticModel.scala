@@ -2,6 +2,10 @@ package com.ferran.projects.crypto.analytics.model
 
 object CryptoAnalyticModel {
 
+  case class Urls(
+
+                 )
+
   object Shapeshift {
 
     case class AccessToken(createdAt: String,

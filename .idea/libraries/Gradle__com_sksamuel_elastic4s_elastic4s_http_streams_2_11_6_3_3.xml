@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sksamuel.elastic4s:elastic4s-http-streams_2.11:6.3.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.elastic4s/elastic4s-http-streams_2.11/6.3.3/384e8ead1308eb46d5ecb1fc68f82b850b52b6c7/elastic4s-http-streams_2.11-6.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.elastic4s/elastic4s-http-streams_2.11/6.3.3/22838e9a2b0a069107c7f0eec62f6444490f98b7/elastic4s-http-streams_2.11-6.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

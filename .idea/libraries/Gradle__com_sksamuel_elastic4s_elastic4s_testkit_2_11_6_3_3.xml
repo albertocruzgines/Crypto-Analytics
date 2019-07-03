@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sksamuel.elastic4s:elastic4s-testkit_2.11:6.3.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.elastic4s/elastic4s-testkit_2.11/6.3.3/20f4124ed6d198550490e894e0cf391f5d323f68/elastic4s-testkit_2.11-6.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.elastic4s/elastic4s-testkit_2.11/6.3.3/28b368d18246193a8928a1fd0e6b0476e06c4d6f/elastic4s-testkit_2.11-6.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

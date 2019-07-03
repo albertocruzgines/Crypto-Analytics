@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sksamuel.elastic4s:elastic4s-core_2.11:6.3.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.elastic4s/elastic4s-core_2.11/6.3.3/8bda2aae2ada02c3a4f48e5d3867ca25cce0afa4/elastic4s-core_2.11-6.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sksamuel.elastic4s/elastic4s-core_2.11/6.3.3/306a75fc63d8151a0d63eb6cb9e9d61a8353f83d/elastic4s-core_2.11-6.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

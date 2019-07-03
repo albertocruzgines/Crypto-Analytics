@@ -1,7 +1,5 @@
 package com.ferran.projects.crypto.analytics
 
-import java.time.format._
-
 import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.Shapeshift.ShapeshiftResponse
 import com.ferran.projects.crypto.analytics.model.CryptoAnalyticModel.SmartBit._
 import io.circe._
@@ -11,7 +9,6 @@ import io.circe.syntax._
 package object utils {
 
   implicit final val decoder52 = deriveDecoder[Sign]
-//  implicit final val decoder51 = deriveDecoder[Address]
 
   implicit final val decoder42 = deriveDecoder[InOrOutDetails]
 
@@ -29,7 +26,6 @@ package object utils {
 
 
   implicit final val encoder52 = deriveEncoder[Sign]
-//  implicit final val encoder51 = deriveEncoder[Address]
 
   implicit final val encoder42 = deriveEncoder[InOrOutDetails]
 
@@ -42,7 +38,5 @@ package object utils {
   implicit final val encoder13 = deriveEncoder[ShapeshiftResponse]
   implicit final val encoder12 = deriveEncoder[DetailedBlockResponse]
   implicit final val encoder11 = deriveEncoder[RecentBlocksResponse]
-
-
 
 }

@@ -77,5 +77,11 @@ project("crypto-analytics") {
         compile("io.circe:circe-literal_$scalaVersion:$circe")
         compile("io.circe:circe-parser_$scalaVersion:$circe")
         compile("org.scalatest:scalatest_$scalaVersion:$scalaTestVersion")
+        compile "com.sksamuel.elastic4s:elastic4s-http_$scalaVersion:$elastic4sVersion"
+        compile "com.sksamuel.elastic4s:elastic4s-http-streams_$scalaVersion:${elastic4sVersion}"
+        compile "com.sksamuel.elastic4s:elastic4s-testkit_$scalaVersion:${elastic4sVersion}"
+        compile "com.sksamuel.elastic4s:elastic4s-core_$scalaVersion:${elastic4sVersion}"
+        compile "com.sksamuel.elastic4s:elastic4s-embedded_$scalaVersion:${elastic4sVersion}"
+        compile "com.sksamuel.elastic4s:elastic4s-circe_$scalaVersion:${elastic4sVersion}"
     }
 }
