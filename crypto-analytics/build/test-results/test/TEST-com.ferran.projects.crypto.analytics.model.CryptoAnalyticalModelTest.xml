@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="Ferrans-MacBook-Pro.local" name="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" tests="2" time="0.086" timestamp="2019-07-03T03:17:03">
+errors="0" failures="0" hostname="Ferrans-MacBook-Pro.local" name="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" tests="2" time="0.096" timestamp="2019-07-03T03:55:32">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment">
     </property>
@@ -96,10 +96,10 @@ errors="0" failures="0" hostname="Ferrans-MacBook-Pro.local" name="com.ferran.pr
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase 
-  name="Encoding and decoding DetailedBlock case class should return the same value" classname="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" time="0.059">
+  name="Encoding and decoding DetailedBlock case class should return the same value" classname="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" time="0.068">
 </testcase>
   <testcase 
-  name="Encoding and decoding Transaction case class should return the same value" classname="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" time="0.0">
+  name="Encoding and decoding Transaction case class should return the same value" classname="com.ferran.projects.crypto.analytics.model.CryptoAnalyticalModelTest" time="0.001">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

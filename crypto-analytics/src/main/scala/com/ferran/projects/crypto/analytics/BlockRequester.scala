@@ -26,19 +26,21 @@ object BlockRequester extends App {
   val urlSmartBitGetBlockDetails = "https://api.smartbit.com.au/v1/blockchain/block/"
   val urlShapeshiftGetStatusOfDepositToAddress = "https://shapeshift.io/txstat/"
 
-
+  // This method is not used in this exercice
   def shapeshiftLogin: IO[String] = for {
     uri <- IO.fromEither(Uri.fromString(urlAuth))
     authResponse <- RestScalaClient.shapeshiftLogin(uri, credentials, client = httpClient)
   } yield authResponse.access_token.token
 
-
+  // Call to the endpoint to get the recent blocks
   def recentBlocksIO: IO[RecentBlocksResponse] = for {
     uri <- IO.fromEither(Uri.fromString(urlSmartBitGetRecentBlocks))
     recentBlocks <- RestScalaClient.getRequest(uri, client = httpClient)(decoder11)
   } yield recentBlocks
 
-
+  // For the recent blocks it´s taken its height and it´s made a call to the endpoint to get the details of the block.
+  // It will look for the output address and filter just the ones that follow the "interesting pattern" (its base58
+  // contains an 'E')
   def filteredBlocksIO(height: Long): IO[Seq[Transaction]] = for {
     uri <- IO.fromEither(Uri.fromString(s"${urlSmartBitGetBlockDetails}${height}"))
     _ = println(s"Uri: ${uri.toString()} ")
@@ -47,7 +49,8 @@ object BlockRequester extends App {
     txFiltered = blockDetails.block.transactions.get.filterInterestingTransactions("E")
   } yield txFiltered
 
-
+  // For those transactions that have at least one address that follows the "interesting pattern", it will be checked in
+  // the ShapeShift API if the address belongs to Shapeshit.
   def checkAddressShapeshiftIO(address: String): IO[ShapeshiftResponse] = for {
     uri <- IO.fromEither(Uri.fromString(s"${urlShapeshiftGetStatusOfDepositToAddress}${address}"))
     _ = println(s"Uri: ${uri.toString()} ")
@@ -55,8 +58,9 @@ object BlockRequester extends App {
     checkAddress <- RestScalaClient.getRequest(uri, client = httpClient)(decoder13)
   } yield checkAddress
 
-
-  val interestingTransactions = for {
+  // It´s called the previous methods in a monadic way. In case the address belongs to Shapeshift, it´s loaded the data
+  // into ElasticSearch
+  val shapeshiftResponseIO = for {
     recentBlocks <- recentBlocksIO
     _ = println("Starting the script")
     _ = println(s"Getting  ${recentBlocks.blocks.size} recent blocks")
@@ -80,6 +84,6 @@ object BlockRequester extends App {
     ).map(_.unsafeRunSync())
   } yield interestingTx
 
-  interestingTransactions.unsafeRunSync()
+  shapeshiftResponseIO.unsafeRunSync()
 
 }
